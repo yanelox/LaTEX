@@ -1,0 +1,86 @@
+\documentclass[12pt,a4paper,fleqn]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amssymb, amsmath, multicol}
+\usepackage[russian]{babel}
+\usepackage{graphicx}
+\graphicspath{{pictures/}}
+\DeclareGraphicsExtensions{.pdf,.png,.jpg}
+\usepackage[shortcuts,cyremdash]{extdash}
+\usepackage{wrapfig}
+\usepackage{floatflt}
+\usepackage{lipsum}
+\usepackage{concmath}
+\usepackage{euler}
+\usepackage{tikz}  
+\usetikzlibrary{graphs}
+
+\oddsidemargin=-15.4mm
+\textwidth=190mm
+\headheight=-32.4mm
+\textheight=277mm
+\tolerance=100
+\parindent=0pt
+\parskip=8pt
+\pagestyle{empty}
+\renewcommand{\tg}{\mathop{\mathrm{tg}}\nolimits}
+\renewcommand{\ctg}{\mathop{\mathrm{ctg}}\nolimits}
+\renewcommand{\arctan}{\mathop{\mathrm{arctg}}\nolimits}
+\newcommand{\divisible}{\mathop{\raisebox{-2pt}{\vdots}}}
+
+\begin{document}
+{\bf 1)} Подставим: $a_k = \lambda^k \rightarrow$ \newline
+$\lambda^3 - 4\lambda^2 - 3\lambda + 18 = 0 \rightarrow \lambda_1 = \lambda_2 = 3, \lambda_3 = 2$ \newline
+$a_k = c_1 \cdot 3^k + c_2 \cdot k \cdot 3^k + c_3 \cdot 2 ^k$ \newline
+Подставим полученное уравнение в начальные условия: \newline
+$a_0 = c_1 + c_3 = 1$ \newline
+$a_1 = 3c_1 + 3c_2 + 2c_3 = 0$ \newline
+$a_2 = 9c_1 + 18c_2 + 4c_3 = 0 \rightarrow$ \newline
+$c_1 = -8, c_2 = 2, c_3 = 9 \rightarrow$ \newline
+Ответ: $a_k = 3^k \cdot (2k - 8) + 9 \cdot 2^k$ \newline \newline
+{\bf 2)} $g(n)$~---~искомая зависимость числа таких слов от $n$ \newline
+$g(n) = A + B$, $A$~---~кол-во искомых слов, оканчивающихся не на букву 'a' $\rightarrow A = 32\cdot g(n - 1)$ (т.~к. убрав последнюю букву мы снова получаем "правильное" слово, но длиной $n - 1$ + в конце может быть любая из $32$ букв).\newline
+$B$~---~кол-во искомых слов, оканчивающихся на букву 'a', тогда: \newline
+$B = C + D$, $C$~---~кол-во слов, оканчивающихся на '(!a)(a)',что равносильно кол-ву слов длиной $n - 1$, оканчивающихся не на 'a', по аналогии: $C = 32g(n - 2)$ \newline
+$D$~---~кол-во слов, оканчивающихся на "аа", это означает, что на третьем с конца месте точно стоит не буква 'a', а значит это равно кол-ву слов длиной $n - 2$, оканчивающихся не на 'a', по аналогии: $D = 32g(n - 3)$ \newline
+$\rightarrow g(n) = A + B = A + C + D = 32(g (n - 1) + g(n - 2) + g( n - 3)), g(0) = 1, g(1) = 33, g(2) = 33^2$ \newline
+Ответ: $g(n) = 32(g (n - 1) + g(n - 2) + g( n - 3)), g(0) = 1, g(1) = 33, g(2) = 33^2$ \newline \newline
+{\bf 3)} Обозначим $f(n)$~---~число слов длины $n$, оканчивающихся на 'a' и не содержащее двух 'b' подряд, $g(n)$~---~число слов длины $n$, оканчивающихся на 'b' и не имеющих двух букв 'b' подряд. \newline
+$f(n) = g(n - 1)$ (т.~к. если слово кончается на 'b', его предпоследняя буква~---~'a') \newline
+$g(n) = g(n -1) + f(n -1)$ (т.~к. если слово оканчивается на 'a', перед ней может стоять любая буква) \newline
+$\rightarrow g(n) = g(n - 1) + g(n - 2) \rightarrow f(n) = f(n -1) + f(n - 2)$ \newline
+$f(0) = 1, f(1) = 1$
+Ответ: $f(n) = f(n - 1) + f(n - 2); f(0) = 1, f(1) = 1$ \newline \newline 
+{\bf 4)} Обозначим: $g(n)$~---~число путей длины $n$,начинающихся в первой вершине, $g_k(n)$~---~число путей длины $n$, начинающихся в первой вершине и заканчивающихся в $k$-ой вершине. Тогда: \newline
+$g(n) = g_1(n) + g_2(n) + g_3(n) + g_4(n)$ \newline
+$g_1(n) = g_4(n) = g (n - 1)$ (закончив путь длины $n -1$ в любой вершине, всегда можно продолжить его на один шаг до первой или четвертой вершины). \newline
+$g_2(n) = g_3(n) = g_1(n-1) + g_4(n-1) = 2g(n-2)$ (во вторую и третью можно попасть только из первой и четвертой, соответственно любому пути длины $n$ в эти вершины соответствует путь длины $n -1$ в первую или четвертую вершины). \newline
+$\rightarrow$ Ответ: $g_n = 2g(n-1) + 4g(n-2), g(1) = 4, g(0) = 1$ \newline \newline
+{\bf 6)} $A(x) = \sum_{k=0}^\infty a_kx^k = \sum_{k=0}^\infty a_{2k}x^{2k} + \sum_{k=0}^\infty a_{2k + 1}x^{2k + 1}$ \newline
+$a_{2n} = \sum_{k = 1}^n f(2k-2) = \sum_{k = 1}^p (2k - 2), a_{2n+1} = \sum_{k=1}^n f(2k-1) = 0 \rightarrow$ \newline
+$A(x) = \sum_{k=0}^\infty x^{2k} \sum_{p=1} (2p - 2) = \sum_{k=0}^\infty k(k-1)x^{2k} = \dfrac{1}{4} \sum_{k=0}^\infty 2k (2k -2) x^{2k}$ \newline
+$g(x) = \sum_{k=0}^\infty x^{2k} = 1 + x^2 + x^4 \ldots = \dfrac{1}{1 - x^2} \rightarrow$ \newline
+$\dfrac{g'(x)}{x} = \sum_{k=1}^\infty 2k \cdot x^{2k - 2} = \dfrac{2}{(1 -x^2)^2} \rightarrow$ \newline
+$\dfrac{x^3}{4} \left( \dfrac{g'(x)}{x} \right)' = \dfrac{2x^4}{(1-x^2)^3} =  \dfrac{1}{4} \sum_{k=2}^\infty 2k(2k - 2)x^{2k} = A(x) - 0 - 0 = A(x) \rightarrow$ \newline
+$A(x) = \dfrac{2x^4}{(1 - x^2)^3} = \dfrac{2}{1 - x^2} - \dfrac{4}{(1 -x^2)^2} + \dfrac{2}{(1-x^2)^3} = 2\sum_{k=0}^\infty x^{2k} - 4\sum_{k=1}^\infty k \cdot x^{2k -2} + \sum_{k=2}^\infty k(k-1) \cdot x^{2k - 4} = 2\sum_{k=0}^\infty (k^2 - k) \cdot x^{2k} \rightarrow$ \newline
+Ответ: $a_{2k+1} = 0, a_{2k} = k^2 - k$ \newline \newline
+{\bf 7)} $F_k = \dfrac{1}{\sqrt{5}} \left( \left( \dfrac{1 + \sqrt{5}}{2} \right)^{k + 1} - \left( \dfrac{1 - \sqrt{5}}{2} \right)^{k + 1} \right) \rightarrow$ \newline
+$a_k = F_{2k} = \dfrac{1}{\sqrt{5}} \left( \left( \dfrac{1 + \sqrt{5}}{2} \right) \left( \dfrac{6 + 2\sqrt{5}}{4} \right)^{k} - \left( \dfrac{1 - \sqrt{5}}{2} \right) \left( \dfrac{6 - 2\sqrt{5}}{4} \right)^{k} \right) = \dfrac{5 + \sqrt{5}}{10} \left( \dfrac{3 + \sqrt{5}}{2} \right)^k + $ \newline
+$\dfrac{5 - \sqrt{5}}{10} \left( \dfrac{3 - \sqrt{5}}{2} \right)^k = c_1 \cdot \lambda_1^k + c_2 \cdot \lambda_2^k \rightarrow$
+\begin{itemize}
+\item $c_1 = \dfrac{5 + \sqrt{5}}{10}, c_2 = \dfrac{5 - \sqrt{5}}{10} \rightarrow a_0 = c_1 + c_2 = 1, a_1 = 2$
+\item $\lambda_1 = \dfrac{3 + \sqrt{5}}{2}, \lambda_2 = \dfrac{3 - \sqrt{5}}{2} \rightarrow \lambda^2 - (\lambda_1 + \lambda_2) \lambda + \lambda_1 \lambda_2 = 0 \rightarrow$ \newline
+$\lambda^2 - 3\lambda + 1 = 0 \rightarrow$ \newline
+$a_{k + 2} - 3a_{k + 1} + a_{k} = 0$
+\end{itemize}
+Ответ: $a_{k + 2} - 3a_{k + 1} + a_{k} = 0, a_0 = 1, a_1 = 2$ \newline \newline
+{\bf 8)} $T(n) = T(n -2) + 2T(n-3) + \ldots + (n - 2)T(1)$ \newline
+$T(n + 1) = T(n - 1) + 2T(n - 2) + \ldots + (n - 1)T(1) =$ \newline
+$T(n - 1) + T(n - 2) + 2T(n - 3) + \ldots + (n - 2)T(1) + T(n - 2) + T(n - 3) + \ldots + T(1) =$ \newline
+$T(n - 1) + T(n) + T(n - 2) + \ldots + T (1) = \sum_{k = 1}^n T(k) = 3 \cdot 2^{n - 3}$ (из исходных данных) \newline
+Ответ: $T(n) = 3 \cdot 2^{n - 3}, T(1) = 1, T(2) = 2$ \newline \newline
+{\bf 9)} $T_n = \dfrac{1}{2} (nT_{n - 1} + 3n!) \rightarrow T_{n - 1} = \dfrac{1}{2} ((n-1)T_{n - 2} + 3(n-1)!) \rightarrow$ \newline
+$T_n = \dfrac{n(n - 1)}{4}T_{n - 2} + \dfrac{3}{4}n! + \dfrac{3}{2}n! \rightarrow T_n = \dfrac{n!}{2^k (n - k)!} T_{n - k} + 3 n! \sum_{p = 1}^k \left( \dfrac{1}{2} \right)^p$ \newline
+$T_n = \dfrac{n!}{2^k (n - k)!} T_{n - k} + 3n!(1 - \left( \dfrac{1}{2} \right)^k) \rightarrow$ \newline
+$T_n = \dfrac{n!}{2^n n!}T_0 + 3n!(1 - \left( \dfrac{1}{2} \right)^k) = n!(3 + \left( \dfrac{1}{2} \right)^{n - 1})$ Можно подставить формулу в изначальную рекуррентность и проверить ее истинность. \newline
+Ответ: $T_0 = 5, T_n = n!(3 + \left( \dfrac{1}{2} \right)^{n - 1}), (n \geqslant 1)$ \newline \newline
+\end{document}

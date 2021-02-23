@@ -1,0 +1,60 @@
+\documentclass[12pt,a4paper,fleqn]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amssymb, amsmath, multicol}
+\usepackage[russian]{babel}
+\usepackage{graphicx}
+\usepackage[shortcuts,cyremdash]{extdash}
+\usepackage{wrapfig}
+\usepackage{floatflt}
+\usepackage{lipsum}
+\usepackage{concmath}
+\usepackage{euler}
+
+\oddsidemargin=-15.4mm
+\textwidth=190mm
+\headheight=-32.4mm
+\textheight=277mm
+\tolerance=100
+\parindent=0pt
+\parskip=8pt
+\pagestyle{empty}
+\renewcommand{\tg}{\mathop{\mathrm{tg}}\nolimits}
+\renewcommand{\ctg}{\mathop{\mathrm{ctg}}\nolimits}
+\renewcommand{\arctan}{\mathop{\mathrm{arctg}}\nolimits}
+\newcommand{\divisible}{\mathop{\raisebox{-2pt}{\vdots}}}
+
+\begin{document}
+{\bf 1a)} Т.~к., если $k_1, k_2$~---~замкнутые, то $k_1 \cap k_2$~---~ тоже замнкутый. В нашем случае, $k_1 = T0, k_2 = T1$ =>  $k_1 \cap k_2$ (в нашем случае K) тоже замкнут => $K$~---~замкнут \newline
+
+
+{\bf 1b)} Пусть функция $f$ такая, что: $f = x_1 + x_2$, тогда можно сделать суперпозицию: $f = x_1 + (x_1 + x_2) = x_1 + x_1 + x_2 = x_2$. Для такой функции не выполняется $f(\vec{0}) = 0$ => класс незамкнут \newline
+
+
+{\bf 2a)} $\overline{x} = x \downarrow x, x \land y = \overline{\overline{x} \lor \overline{y}} = \overline{x} \downarrow \overline{y} = (x \downarrow x) \downarrow (y \downarrow y)$ \newline
+Мы получили полный класс $(\neg, \land)$, что является полным классом => $[K] = P2$
+
+
+{\bf 4)} Пусть существуют 2 таких многочлена, тогда: \newline
+$\alpha_1 x_1 + \alpha_2 x_2 + ... = \alpha_1' x_1 + \alpha_2' x_2 + ...$ \newline
+$(\alpha_1 - \alpha_1') x_1 + (\alpha_2 - \alpha_2') x_2 + ... = 0 $ | Заменим $\alpha_i - \alpha_i' = \beta_i$ \newline
+$\beta_1x_1 + \beta_2x2 + ... = 0$ \newline
+Найдем первый по счету коэффициент $\beta_i \ne 0$, и возьмем набор, прилежащий к нему равным 1, соответсвенно, все предыдущие коэф-ты равны 0, все последующие зануляются из-за выбранного набора \newline
+Таким образом, выбранный нами $\beta_i * 1 = 0$ => $\beta_i = 0$, получили противоречие => Наше предположение неверно, и не существует двух таких многочленов, чтд. \newline
+
+
+{\bf 5)}  Пусть $\vec{p} \geqslant \vec{q}$, тогда для монотонной $f(x)$ выполняется: $f(\vec{p}) \geqslant  f(\vec{q})$ \newline
+=> $\overline{\vec{p}} \leqslant \overline{\vec{q}}$ => $f(\overline{\vec{p}}) \leqslant f(\overline{\vec{q}})$ => $\overline{f(\overline{\vec{p}})} \geqslant \overline{f(\overline{\vec{q}})}$ => $f^* (\vec{p}) \geqslant f^*(\vec{q})$ => $f^*$~---~монотонная, чтд. \newline
+
+
+{\bf 6)} $f \notin M \cup S \leftrightarrow (f \notin M) \land (f \notin S)$ \newline
+1) Для $f \notin S$: Т.~к. $f \ne const$ => $\exists f(x) = 1$ => $f(x) + f^*(x) = const = 1$ => \newline
+Если $f(x) = 0$ => $f^*(x) = 1$ => $f(x) \ne f^*(x)$ => $f \notin S$ \newline
+2) Для $f \notin M$: доказательство не найдено (пока) \newline
+
+
+{\bf 7)} $x_1 \lor x_2 \lor ... \lor x_n = \overline{\overline{x_1} \land \overline{x_2} \land ... \land \overline{x_n}} = \overline{(x_1 + 1)(x_2 + 1)...(x_n + 1)} = (x_1 + 1)(x_2 + 1)...(x_n + 1) + 1 = $ \newline
+$x_1 + x_2 + ... + x_1x_2 + ...  + (x_ix_jx_k...) + 1 + 1 = x_1 + x_2 + ... + x_1x_2 + ... + (x_ix_jx_k...)$ - по законам комбинаторики здесь будет $2^n - 1$ элементов => $2^n - 1$ ненулевых коэф-ов \newline
+
+{\bf 11)} Возьмем такие $A, B, C, D$, что: $A \cup C = B \cup D$, $A \cap B \ne 0$, $C \cap D = 0$ \newline
+Тогда выполняется условие $A \Delta B = C \Delta D$, но не выполняется условие $A \cap B \subseteq C$
+\end{document}

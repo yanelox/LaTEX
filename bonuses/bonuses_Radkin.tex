@@ -1,0 +1,33 @@
+\documentclass[12pt,a4paper,fleqn]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amssymb, amsmath, multicol}
+\usepackage[russian]{babel}
+\usepackage{graphicx}
+\usepackage[shortcuts,cyremdash]{extdash}
+\usepackage{wrapfig}
+\usepackage{floatflt}
+\usepackage{lipsum}
+\usepackage{concmath}
+\usepackage{euler}
+\usepackage{tikz}  
+\usetikzlibrary{graphs}
+
+\oddsidemargin=-15.4mm
+\textwidth=190mm
+\headheight=-32.4mm
+\textheight=277mm
+\tolerance=100
+\parindent=0pt
+\parskip=8pt
+\pagestyle{empty}
+\renewcommand{\tg}{\mathop{\mathrm{tg}}\nolimits}
+\renewcommand{\ctg}{\mathop{\mathrm{ctg}}\nolimits}
+\renewcommand{\arctan}{\mathop{\mathrm{arctg}}\nolimits}
+\newcommand{\divisible}{\mathop{\raisebox{-2pt}{\vdots}}}
+
+\begin{document}
+{\bf 11)} Выберем некоторое произвольное поднможество $A$, состоящее из $k$ элементов. Тогда, посчитаем, сколько подмножеств $B$, которые с ним не пересекаются. Рассчитаем это таким образом: у нас осталось $n - k$ элементов, которые не приналежат $A$, нам нужно выбраь произвольное количество элементов из этой группы, чтобы получить не пересекающееся с ним подмножество $B$ $\rightarrow$ $\sum_{b = 0}^{n - k}C_{n - k}^b = 2^{n - k}$ (по биному Ньютона). \newline
+Для каждого $k$, очевидно, существует $C_n^k$ множеств $A$ $\rightarrow$ существует $C_n^k \cdot 2^{n - k}$ пар непересекающихся множеств для одного из $k$. Тогда, для всех: $\sum_{k = 0}^{n}C_n^k \cdot 2^{n - k} = \sum_{k = 0}^{n}C_n^{n - k} \cdot 2^{n - k} = \sum_{k = 0}^{n}C_n^k \cdot 2^k = 3^n$ (по биному Ньютона). Также, необходимо разделить на 2, т.~к. каждую пару мы учли дважды $\rightarrow$ $\dfrac{3^n}{2}$ \newline
+Всего подмножеств $2^n$ $\rightarrow$ кол-во способов выбрать пару подмножеств: $\dfrac{2^n(2^n - 1)}{2}$ (делим на 2, т.~к. каждую пару учли дважды). Тогда, искомая вероятность: $\dfrac{3^n \cdot 2}{2 \cdot 2^n \cdot (2^n - 1)} = \dfrac{3^n}{2^n(2^n - 1)}$ \newline
+Ответ: $\dfrac{3^n}{2^n(2^n - 1)}$
+\end{document}

@@ -1,0 +1,174 @@
+\documentclass[12pt,a4paper,fleqn]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amssymb, amsmath, multicol}
+\usepackage[russian]{babel}
+\usepackage{graphicx}
+\usepackage[shortcuts,cyremdash]{extdash}
+\usepackage{wrapfig}
+\usepackage{floatflt}
+\usepackage{lipsum}
+\usepackage{concmath}
+\usepackage{euler}
+
+\oddsidemargin=-15.4mm
+\textwidth=190mm
+\headheight=-32.4mm
+\textheight=277mm
+\tolerance=100
+\parindent=0pt
+\parskip=8pt
+\pagestyle{empty}
+\renewcommand{\tg}{\mathop{\mathrm{tg}}\nolimits}
+\renewcommand{\ctg}{\mathop{\mathrm{ctg}}\nolimits}
+\renewcommand{\arctan}{\mathop{\mathrm{arctg}}\nolimits}
+\newcommand{\divisible}{\mathop{\raisebox{-2pt}{\vdots}}}
+
+
+\begin{document}
+
+{\bf 1)} $ \land, \lor, \equiv, +, |, \downarrow$ ~---~ коммутативны, что легко доказывается путем построения таблицы истинности для обоих вариантов выражения. Докажем это на примере $ \land $, для остальных все будет аналогично.\newline
+
+
+\begin{tabular}{| c | c | c |}   
+\hline
+x & y & F \\ \hline
+0 & 0 & 0 \\
+0 & 1 & 0 \\
+1 & 0 & 0 \\
+1 & 1 & 1\\
+\hline
+\end{tabular} 
+\quad
+\begin{tabular}{| c | c | c |}   
+\hline
+y & x & F \\ \hline
+0 & 0 & 0 \\
+0 & 1 & 0 \\
+1 & 0 & 0 \\
+1 & 1 & 1\\
+\hline
+\end{tabular}\newline
+
+
+{\bf 2)} Построим таблицы истинности для выражений $x \land (y \land z)$ и 
+\newline
+$(x \land y) \land z$ и заметим, что они равносильны \newline
+
+
+\begin{tabular}{| c | c | c | c | c |}   
+\hline
+x & y & z & $y \land z$ & F\\ \hline
+0 & 0 & 0 & 0 & 0 \\
+0 & 0 & 1 & 0 & 0 \\
+0 & 1 & 0 & 0 & 0 \\
+0 & 1 & 1 & 1 & 0 \\
+1 & 0 & 0 & 0 & 0 \\
+1 & 0 & 1 & 0 & 0 \\
+1 & 1 & 0 & 0 & 0 \\
+1 & 1 & 1 & 1 & 1 \\
+\hline
+\end{tabular}
+\quad
+\begin{tabular}{| c | c | c | c | c |}   
+\hline
+x & y & z & $x \land y$ & F\\ \hline
+0 & 0 & 0 & 0 & 0 \\
+0 & 0 & 1 & 0 & 0 \\
+0 & 1 & 0 & 0 & 0 \\
+0 & 1 & 1 & 0 & 0 \\
+1 & 0 & 0 & 0 & 0 \\
+1 & 0 & 1 & 0 & 0 \\
+1 & 1 & 0 & 1 & 0 \\
+1 & 1 & 1 & 1 & 1 \\
+\hline
+\end{tabular} \newline
+
+
+{\bf 3a)} Построим таблицу истинности для выражения $x \lor (x \land y)$, чтобы доказать утверждение и заметим что F = x \newline
+
+
+\begin{tabular}{| c | c | c | c |}
+\hline
+x & y & $x \land y$ & F \\ \hline
+0 & 0 & 0 & 0 \\
+0 & 1 & 0 & 0 \\
+1 & 0 & 0 & 1 \\
+1 & 1 & 1 & 1 \\ 
+\hline
+\end{tabular} \newline
+
+
+{\bf 3b)} Разложим оператор импликации через оператор дизъюнкции:
+\newline $\overline{x\rightarrow y} = \overline{\overline{x} \lor y} = x\overline{y}$. \newline
+
+
+{\bf 4)} \quad \quad \quad $x1\overline{x2} \lor x2\overline{x3}$
+\quad \quad \quad \quad \quad \quad \quad \quad \quad \quad 
+$(x1 \lor x2)(\overline{x2} \lor x3)$ 
+
+
+\begin{tabular}{| c | c | c | c | c | c|}
+\hline
+   &    &    &              &              &   \\
+x1 & x2 & x3 & $x1\overline{x2}$ & $x2\overline{x3}$ & F \\ \hline
+0 & 0 & 0 & 0 & 0 & 0 \\ 
+0 & 0 & 1 & 0 & 0 & 0 \\
+0 & 1 & 0 & 0 & 1 & 1 \\
+0 & 1 & 1 & 0 & 0 & 0 \\
+1 & 0 & 0 & 1 & 0 & 1 \\
+1 & 0 & 1 & 1 & 0 & 1 \\
+1 & 1 & 0 & 0 & 1 & 1 \\
+1 & 1 & 1 & 0 & 0 & 0 \\
+\hline
+\end{tabular}
+\quad
+\begin{tabular}{| c | c | c | c | c | c|}
+\hline
+   &    &    &              &              &   \\
+x1 & x2 & x3 & $x1 \lor x2$ & $\overline{x2} \lor x3$ & F \\ \hline
+0 & 0 & 0 & 0 & 1 & 0 \\ 
+0 & 0 & 1 & 0 & 1 & 0 \\
+0 & 1 & 0 & 1 & 0 & 0 \\
+0 & 1 & 1 & 1 & 1 & 1 \\
+1 & 0 & 0 & 1 & 1 & 1 \\
+1 & 0 & 1 & 1 & 1 & 1 \\
+1 & 1 & 0 & 1 & 0 & 0 \\
+1 & 1 & 1 & 1 & 1 & 1 \\
+\hline
+\end{tabular} 	\newline
+				\newline
+Построив таблицы, получаем что первая функция не равна второй \newpage
+
+{\bf 5a)} $(x + y) \lor \overline{y}$ ~---~  построив таблицу, можем увидеть, что x, y - существенные \newline 
+
+\begin{tabular}{| c | c | c | c |}
+\hline
+x & y & x + y & F \\ \hline
+0 & 0 & 0 & 1\\
+0 & 1 & 1 & 1\\
+1 & 0 & 1 & 1\\
+1 & 1 & 0 & 0\\
+\hline
+\end{tabular} \newline
+
+{\bf 5b)} $(x \rightarrow (x \lor y)) \rightarrow z$ ~---~  построив таблицу, можем увидеть, что F = z, поэтому x, y - несущественные, z - существенная\newline
+
+\begin{tabular}{| c | c | c | c | c | c |}
+\hline
+x & y & z & $x \lor y$ & $x \rightarrow (x \lor y)$ & F \\ \hline
+0 & 0 & 0 & 0 & 1 & 0 \\
+0 & 0 & 1 & 0 & 1 & 1 \\
+0 & 1 & 0 & 1 & 1 & 0 \\
+0 & 1 & 1 & 1 & 1 & 1 \\
+1 & 0 & 0 & 1 & 1 & 0 \\
+1 & 0 & 1 & 1 & 1 & 1 \\
+1 & 1 & 0 & 1 & 1 & 0 \\
+1 & 1 & 1 & 1 & 1 & 1 \\
+\hline
+\end{tabular} \newline
+
+{\bf 6)} $(x \rightarrow y) \rightarrow (\overline{y} \rightarrow \overline{x})= (\overline{x} \lor y) \rightarrow (y \lor \overline{x}) = \overline{\overline{x} \lor y} \lor y \lor \overline{x} = x\overline{y} \lor \overline{x\overline{y}} = A \lor \overline{A} = 1 \quad (A = x\overline{y})$ \newline
+
+{\bf 7)} $x \land y = \overline{x | y}$, $x \lor y = \overline{x} | \overline{y}$, $x \equiv y = \overline{x | y} \lor \overline{\overline{x} | \overline{y}}$, $x + y = (x | y)(\overline{x} | \overline{y})$, $x \downarrow y = \overline{\overline{x} | \overline{y}}$
+
+\end{document}

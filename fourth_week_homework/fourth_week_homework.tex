@@ -1,0 +1,70 @@
+\documentclass[12pt,a4paper,fleqn]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amssymb, amsmath, multicol}
+\usepackage[russian]{babel}
+\usepackage{graphicx}
+\usepackage[shortcuts,cyremdash]{extdash}
+\usepackage{wrapfig}
+\usepackage{floatflt}
+\usepackage{lipsum}
+\usepackage{concmath}
+\usepackage{euler}
+
+\oddsidemargin=-15.4mm
+\textwidth=190mm
+\headheight=-32.4mm
+\textheight=277mm
+\tolerance=100
+\parindent=0pt
+\parskip=8pt
+\pagestyle{empty}
+\renewcommand{\tg}{\mathop{\mathrm{tg}}\nolimits}
+\renewcommand{\ctg}{\mathop{\mathrm{ctg}}\nolimits}
+\renewcommand{\arctan}{\mathop{\mathrm{arctg}}\nolimits}
+\newcommand{\divisible}{\mathop{\raisebox{-2pt}{\vdots}}}
+
+\begin{document}
+{\bf 1)} Нам ничего неизвестно об истинности и ложности утверждений $A$ и $B$ для произвольной параболы$\rightarrow$ мы ничего не можем сказать об истинности или ложности утверждений $A \rightarrow B$ или $B \rightarrow A$ \newline
+{\bf 2)} Обозначим $A = 1$, если A~---~смотрит ТВ, и $A = 0$~---~если не смотрит, тогда: \newline
+$A \rightarrow B = 1$ (1) \newline
+$D \lor E = 1$ (2) \newline
+$B + C = 1$ (3) \newline
+$C \equiv D = 1$ (4) \newline
+$E \rightarrow (AD) = 1$ (5) \newline
+Будем отталкиваться от уравнения (4): \newline
+1-й случай ($C = D = 0$):\newline
+Тогда, из (2)~---~$E = 1$, а в таком случае уравнение (5)~---~ложно, противоречие \newline
+2 -й случай ($C = D = 1$): \newline
+Тогда, из уравнения (3)~---~$B = 0$, тогда из уравнения (1)~---~$A = 0$, а тогда из уравнения (5)~---~$E = 0$.Таким образом получаем: $A = 0, B = 0, C = 1, D = 1, E = 0$ \newline
+Ответ: Смотрят~---~$C, D$, не смотрят~---~$A, B, E$ \newline
+{\bf 3)}
+\begin{itemize}
+\item Пусть, утверждение $A$ говорит, что $x^2 -6x + 5$~---~четно, а утверждение $B$, что $x$~---~нечетно \newline
+\item Если $x$ - четно, тогда $x^2$~---~четно, $-6x$~---~четно, $5$~---~нечетно, тогда $x^2 -6x + 5$~---~нечетно. Таким образом, $\overline{B} \rightarrow \overline{A} = 1$, тогда по контрапозиции $A \rightarrow B = 1$, ч.т.д.\newline
+\end{itemize}
+{\bf 4)} Пусть, $a, b$ - рац. числа, тогда $a = \frac{p_1}{q_1}, b = \frac{p_2}{q_2}$, где  $p_1,q_1,p_2,q_2 - целые числа$, $i$ - иррациональное число, тогда, от противного: \newline 
+$\frac{p_1}{q_1} i = \frac{p_2}{q_2} \rightarrow i = \frac{p_2q_1}{q_2p_1} \rightarrow i$ - рациональное число, противоречие \newline
+{\bf 5)}
+\begin{itemize} 
+\item Если $B = A \cap C$, то $C \subseteq B \rightarrow C \setminus A \subseteq B$~---~верно \newline
+\item Если $C \subseteq B \rightarrow C \setminus B = \varnothing => C \setminus B \subseteq A$~---~верно \newline 
+\end{itemize}
+Ответ: Да, возможно \newline
+{\bf 6a)} 
+\begin{itemize}
+\item Проверим для $n = 1$ : $0 = 0$, верно \newline
+\item Предположим, что $1\cdot(n-1) + 2\cdot(n-2) + ... + (n-1)\cdot1 = \frac{(n-1) \cdot n \cdot (n+1)}{6}$ и проверим истинность для $n + 1$ \newline
+Тогда: $1 \cdot n + 2 \cdot (n -1) + ... + (n - 1) \cdot 2 + n \cdot 1 = F \rightarrow$ \newline
+$F - \frac{(n-1) \cdot n \cdot (n+1)}{6} = 1 + 2 + .. n - 1 + n$~---~арифметическая прогрессия $\rightarrow$ \newline
+$F - \frac{(n-1) \cdot n \cdot (n+1)}{6} = \frac{2 + n - 1}{2} \cdot n = \frac{3 \cdot n \cdot (n + 1)}{6} \rightarrow F = \frac{n \cdot (n+1) \cdot (n+2)}{6}$, ч.т.д. \newline
+\end{itemize}
+{\bf 6b)} Далее используется формула приведения: $\sin \alpha - \sin \beta = 2 \cdot \sin (\frac{\alpha - \beta}{2}) \cdot \cos (\frac{\alpha + \beta}{2})$ 
+\begin{itemize}
+\item Проверим для $n = 1: \cos x = \frac{\sin \frac{3x}{2}}{2 \sin \frac{x}{2}} - \frac{1}{2} = \frac{1}{2 \sin \frac{x}{2}} \cdot (\sin \frac{3x}{2} - \sin \frac{x}{2}) = \frac{1}{2 \sin \frac{x}{2}} \cdot 2 \sin \frac{x}{2} \cos x = \cos x$ - верно \newline
+\item Предположим, что верно для $n$ и проверим для $n + 1$: \newline
+$F (n) = \frac{\sin (n + \frac{1}{2})x}{2 \sin \frac{x}{2}} - \frac{1}{2}$ \newline
+$F (n+1) = F (n) + \cos nx = \frac{\sin (n + \frac{3}{2})x}{2 \sin \frac{x}{2}} - \frac{1}{2} \rightarrow$ \newline
+$\cos nx = \frac{\sin (n + \frac{3}{2})x - \sin (n + \frac{1}{2})x}{2 \sin \frac{x}{2}} = \frac{2 \sin \frac{x}{2} \cos (n+1)x}{2 \sin \frac{x}{2}} = cos (n+1)x$  
+\end{itemize}
+{\bf 9)} Чтобы этого добиться, мы циклически выстраиваем фишки каждого цвета по строкам. Т.е., пускай у нас в первой строке $a$ фишек, во второй~---~$b$, в третьей~---~$n - a - b$ (цвета 1). Тогда в первые $a$ позиций первой строки устанавливаем фишки 1 цвета, во второй строке - с $a + 1$ по $b$ позици, и с $b + 1$ по $n$. В каждом столбце получилось ровно по 1 фишке цвета 1. Аналогичным образом заполняем строки остальными цветами, в случае, если мы достигли конца строки, но у нас еще остались фишки, начинаем устанавливать их в ее начало.
+\end{document}

@@ -1,0 +1,62 @@
+\documentclass[12pt,a4paper,fleqn]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amssymb, amsmath, multicol}
+\usepackage[russian]{babel}
+\usepackage{graphicx}
+\usepackage[shortcuts,cyremdash]{extdash}
+\usepackage{wrapfig}
+\usepackage{floatflt}
+\usepackage{lipsum}
+\usepackage{concmath}
+\usepackage{euler}
+
+\oddsidemargin=-15.4mm
+\textwidth=190mm
+\headheight=-32.4mm
+\textheight=277mm
+\tolerance=100
+\parindent=0pt
+\parskip=8pt
+\pagestyle{empty}
+\renewcommand{\tg}{\mathop{\mathrm{tg}}\nolimits}
+\renewcommand{\ctg}{\mathop{\mathrm{ctg}}\nolimits}
+\renewcommand{\arctan}{\mathop{\mathrm{arctg}}\nolimits}
+\newcommand{\divisible}{\mathop{\raisebox{-2pt}{\vdots}}}
+
+\begin{document}
+{\bf 1a)} Для системы $\{\lnot, \rightarrow\}:$ \newline
+$\overline{A} \rightarrow B = A \lor B$, \newline
+$\overline{A \rightarrow \overline{B}} = A \land B => \{\lnot, \rightarrow\} \iff \{\lnot. \lor, \land, \}$, а такая система полна \newline 
+
+Для системы $\{1, \oplus\}:$ \newline
+$1 \oplus 1 = 0 => \{1, 0, \oplus \}$ => можем построить палином Жегалкина => система полна \newline
+
+Для системы $\{\lnot, \equiv\}:$ \newline
+$x \equiv x = 1, x \equiv \overline{x} = 0, x \equiv y \equiv 0 = x \oplus y => \{\lnot, \equiv \} \iff \{1, \oplus\}$, а такая система - полна (см. выше) \newline
+
+{\bf 1b)} Обозначим $M(f) = 1$, если $f$ принадлежит $M$, и соответственно $M(f) = 0$, если $f$ не принадлежит $M$ => \newline 
+$K(f) = S(f) \land M(f) \lor L(f) \setminus M(f) \lor T_0(f) \setminus S(f) $ (для удобства опустим $(f)$)\newline
+$K = S \land M \lor L \lor \overline{M} \lor T_0 \lor \overline{S} = S \lor L \lor \overline{M} \lor T_0 \lor \overline{S} = 1$ => любая булева функция принадлежит $K$ => система полна \newline
+
+{\bf 2)} Если система $\{f_1 ... f_n\}$ - полна, тогда: 
+\begin{itemize}
+\item $\exists f_k \notin T_0 => \exists f_k^* \notin T_1 (f_k(\overline{0}) = 1 => f_k^*(\overline{1}) = \overline{f_k(\overline{0})} = 0$, 
+\item $\exists f_k \notin T_1 => \exists f_k^* \notin T_0$ (аналогично см.выше) 
+\item $\exists f_k \notin S => \exists f_k^* \notin S$ (предположим обратное, тогда $f_k^{**} = f_k^*$, кроме того: $f_k^** = f_k => f_k = f_k^*$ - противоречие) 
+\item $\exists f_k \notin M => \exists p, q (p > q): f_k(p) < f_k(q) => f_k(\overline{p}) \geqslant f_k(\overline{q}) => \overline{f_k(\overline{p})} < \overline{f_k(\overline{q})} = > f_k^*(p) < f_k^*(q) => f_k^* \notin M$
+\item $\exists f_k \notin L => f_k(\vec{x}) \neq a_1x_1 + a_2x_2 + ... + C_a => f_k(\overline{\vec{x}}) \neq a_1\overline{x_1} + a_2\overline{x_2} + ... + C_a$ \newline
+Т.к. $\overline{x} = x + 1 => f_k(\overline{\vec{x}}) \neq a_1x_1 + a_2x_2 + .. + C_a + a_1 + a_2 + ...  + a_n =>$ \newline
+$\overline{f_k(\overline{\vec{x}})} \neq a_1x_1 + a_2x_2 + ... + C_a + a_1 + ... + a_n + 1$ \newline
+Заменим $\overline{f_k(\overline{\vec{x}})} = f_k^*$, $C_a + a_1 + ... + a_n + 1 = C_a^1$ => \newline
+$f_k^* \neq a_1x_1 + a_2x_2 + ... + C_a^1 => f_k^* \notin L$
+\end{itemize} 
+Таким образом, система $\{f_1^*...f_n^*\}$ не лежит целиком ни в одной из систем  $T_0, T_1, L, S, M$ => такая система полна \newline
+{\bf 3)} 
+\begin{itemize}
+\item Если $a_1 = a_2 = ... = 0 $ => получаем две функции: для $C = 1$ и $C = 0$
+\item Если $a_1^2 + a_2^2 + ... \neq 0$, вспоминаем, что любая симметрическая функция существенно зависит от всех своих переменных. В нашем случае это означает, что: $a_1 = a_2 = ... = 1$ => получаем еще две функции: для $C = 1$ и $C = 0$
+\end{itemize}
+Таким образом, существует 4 такие функции \newline
+{\bf 4)} $x_1 + x_2 + ... + x_n = 1$,  если в наборе $x_1x_2..x_n$ нечетное кол-во единиц. По индукции легко доказывается, что ровно в половине таких наборов кол-во единиц - нечетное. Таким образом, ровно в половине строк таблицы истинности должна стоять единица (в $2^{n-1}$ строках). В остальных $2^{n-1}$ строках может стоять все что угодно => кол-во функций равно $2^{2^{n-1}}$\newline
+{\bf 6a)} $PAR = x_1 + x_2 + ... + x_n$
+\end{document}
