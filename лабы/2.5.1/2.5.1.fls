@@ -1,18 +1,16 @@
-PWD /home/kir/TEX/лабы
+PWD /home/kir/and another one/LaTEX/лабы/2.5.1
 INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
-INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
-INPUT /home/kir/TEX/лабы/2.5.1.tex
-OUTPUT /home/kir/TEX/лабы/2.5.1.log
+INPUT /var/lib/texmf/web2c/xetex/xelatex.fmt
+INPUT /home/kir/and another one/LaTEX/лабы/2.5.1/2.5.1.tex
+OUTPUT /home/kir/and another one/LaTEX/лабы/2.5.1/2.5.1.log
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/fleqn.clo
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/fleqn.clo
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
-INPUT /usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
@@ -37,10 +35,8 @@ INPUT /usr/share/texlive/texmf-dist/tex/generic/babel/switch.def
 INPUT /usr/share/texlive/texmf-dist/tex/generic/babel-russian/russianb.ldf
 INPUT /usr/share/texlive/texmf-dist/tex/generic/babel-russian/russianb.ldf
 INPUT /usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
+INPUT /usr/share/texlive/texmf-dist/tex/generic/babel/xebabel.def
 INPUT /usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def
-INPUT /usr/share/texlive/texmf-dist/tex/latex/cyrillic/t2aenc.def
-INPUT /usr/share/texlive/texmf-dist/tex/latex/base/t2aenc.dfu
-INPUT /usr/share/texlive/texmf-dist/tex/latex/base/t2aenc.dfu
 INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
@@ -51,8 +47,8 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
-INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
-INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-def/xetex.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-def/xetex.def
 INPUT /usr/share/texlive/texmf-dist/tex/latex/ncctools/extdash.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/ncctools/extdash.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/wrapfig/wrapfig.sty
@@ -63,8 +59,8 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
-INPUT /usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-xdvipdfmx.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-xdvipdfmx.def
 INPUT /usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex
@@ -97,8 +93,9 @@ INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-xetex.def
+INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-xetex.def
+INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-dvipdfmx.def
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
@@ -170,31 +167,16 @@ INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/graphs/tikzlibrarygraphs.code.tex
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/graphs/tikzlibrarygraphs.code.tex
-INPUT /home/kir/TEX/лабы/2.5.1.aux
-INPUT /home/kir/TEX/лабы/2.5.1.aux
-INPUT /usr/share/texlive/texmf-dist/tex/latex/cyrillic/t2acmr.fd
-INPUT /usr/share/texlive/texmf-dist/tex/latex/cyrillic/t2acmr.fd
-INPUT /home/kir/.texlive2019/texmf-var/fonts/tfm/lh/lh-t2a/larm1200.tfm
-OUTPUT /home/kir/TEX/лабы/2.5.1.aux
+INPUT /home/kir/and another one/LaTEX/лабы/2.5.1/2.5.1.aux
+INPUT /home/kir/and another one/LaTEX/лабы/2.5.1/2.5.1.aux
+OUTPUT /home/kir/and another one/LaTEX/лабы/2.5.1/2.5.1.aux
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+INPUT /home/kir/and another one/LaTEX/лабы/2.5.1/pictures/image001_35.jpg
 INPUT /usr/share/texlive/texmf-dist/tex/latex/concmath/ot1ccr.fd
 INPUT /usr/share/texlive/texmf-dist/tex/latex/concmath/ot1ccr.fd
+INPUT /usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/concrete/ccr10.tfm
-INPUT /usr/share/texlive/texmf-dist/tex/latex/cyrillic/t2accr.fd
-INPUT /usr/share/texlive/texmf-dist/tex/latex/cyrillic/t2accr.fd
-INPUT /home/kir/.texlive2019/texmf-var/fonts/tfm/lh/lh-t2a/laorm10.tfm
-INPUT /usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
-INPUT /usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
-INPUT /usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-INPUT /usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-INPUT /usr/share/texlive/texmf-dist/tex/latex/ccfonts/ts1ccr.fd
-INPUT /usr/share/texlive/texmf-dist/tex/latex/ccfonts/ts1ccr.fd
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/ecc/torm10.tfm
-INPUT /home/kir/TEX/лабы/pictures/image001_35.jpg
-INPUT /home/kir/TEX/лабы/pictures/image001_35.jpg
-OUTPUT /home/kir/TEX/лабы/2.5.1.pdf
-INPUT /home/kir/TEX/лабы/pictures/image001_35.jpg
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/concrete/ccr8.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/concrete/ccr6.tfm
 INPUT /usr/share/texlive/texmf-dist/tex/latex/amsfonts/ueur.fd
@@ -238,17 +220,6 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/euler/euex7.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
-INPUT /home/kir/TEX/лабы/pictures/загруженное.png
-INPUT /home/kir/TEX/лабы/pictures/загруженное.png
-INPUT /home/kir/TEX/лабы/pictures/загруженное.png
-INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
-INPUT /home/kir/TEX/лабы/2.5.1.aux
-INPUT /home/kir/.texlive2019/texmf-var/fonts/pk/ljfour/public/concmath-fonts/xccex10.600pk
-INPUT /home/kir/.texlive2019/texmf-var/fonts/pk/ljfour/public/concmath-fonts/xccsy10.720pk
-INPUT /home/kir/.texlive2019/texmf-var/fonts/pk/ljfour/public/concmath-fonts/xccsy8.600pk
-INPUT /usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc
-INPUT /usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t2a.enc
-INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/euex10.pfb
-INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb
-INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb
-INPUT /usr/share/texmf/fonts/type1/public/cm-super/sform10.pfb
+INPUT /home/kir/and another one/LaTEX/лабы/2.5.1/pictures/загруженное.png
+OUTPUT /home/kir/and another one/LaTEX/лабы/2.5.1/2.5.1.xdv
+INPUT /home/kir/and another one/LaTEX/лабы/2.5.1/2.5.1.aux
