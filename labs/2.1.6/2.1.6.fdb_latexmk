@@ -1,9 +1,9 @@
 # Fdb version 3
-["xdvipdfmx"] 1614669148 "/home/kir/and another one/LaTEX/лабы/2.1.6/2.1.6.xdv" "/home/kir/and another one/LaTEX/лабы/2.1.6/2.1.6.pdf" "/home/kir/and another one/LaTEX/лабы/2.1.6/2.1.6" 1614669359
+["xdvipdfmx"] 1614669148 "/home/kir/and another one/LaTEX/лабы/2.1.6/2.1.6.xdv" "/home/kir/and another one/LaTEX/лабы/2.1.6/2.1.6.pdf" "/home/kir/and another one/LaTEX/лабы/2.1.6/2.1.6" 1614670409
   "/home/kir/and another one/LaTEX/лабы/2.1.6/2.1.6.xdv" 1614669148 1268 c49e4b3523dbdec1aa2d16fbb5c4c787 "xelatex"
   (generated)
   "/home/kir/and another one/LaTEX/лабы/2.1.6/2.1.6.pdf"
-["xelatex"] 1614669146 "/home/kir/and another one/LaTEX/лабы/2.1.6/2.1.6.tex" "/home/kir/and another one/LaTEX/лабы/2.1.6/2.1.6.xdv" "2.1.6" 1614669358
+["xelatex"] 1614669146 "/home/kir/and another one/LaTEX/лабы/2.1.6/2.1.6.tex" "/home/kir/and another one/LaTEX/лабы/2.1.6/2.1.6.xdv" "2.1.6" 1614670409
   "/etc/texmf/web2c/texmf.cnf" 1614635876 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/kir/and another one/LaTEX/лабы/2.1.6/2.1.6.aux" 1614669148 77 0397bf7caf9ada42c734e5f8ad0d244e ""
   "/home/kir/and another one/LaTEX/лабы/2.1.6/2.1.6.tex" 1614669146 960 fdd0fec6b489bcd74835d73127b16a16 ""
@@ -121,7 +121,7 @@
   "2.1.6.tex" 1614669146 960 fdd0fec6b489bcd74835d73127b16a16 ""
   (generated)
   "2.1.6.aux"
-  "2.1.6.log"
-  "/home/kir/and another one/LaTEX/лабы/2.1.6/2.1.6.log"
-  "/home/kir/and another one/LaTEX/лабы/2.1.6/2.1.6.xdv"
   "2.1.6.xdv"
+  "/home/kir/and another one/LaTEX/лабы/2.1.6/2.1.6.log"
+  "2.1.6.log"
+  "/home/kir/and another one/LaTEX/лабы/2.1.6/2.1.6.xdv"
