@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.3.19)  6 APR 2021 10:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.3.19)  6 APR 2021 13:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**2.5.1.tex
-(./2.5.1.tex
+**2.2.1.tex
+(./2.2.1.tex
 LaTeX2e <2020-02-02> patch level 2
 L3 programming layer <2020-02-14>
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -167,6 +167,10 @@ Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
 \mult@nat@firstbox=\box91
 \colbreak@box=\box92
 \mc@col@check@num=\count196
+)
+(/usr/share/texlive/texmf-dist/tex/latex/t2/mathtext.sty
+Package: mathtext 2018/04/14 v1.0 transparent text-and-math defs
+LaTeX Info: Redefining \halign on input line 121.
 )
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2020/02/14 3.40 The Babel package
@@ -395,7 +399,9 @@ File: t2aenc.dfu 2019/11/14 v1.2k UTF-8 support for inputenc
    defining Unicode char U+FB04 (decimal 64260)
    defining Unicode char U+FB05 (decimal 64261)
    defining Unicode char U+FB06 (decimal 64262)
-))
+)
+\symT2Aletters=\mathgroup6
+)
 Package babel Info: Making " an active character on input line 120.
 Package babel Info: Default for \cyrdash is provided on input line 157.
 ))
@@ -542,12 +548,12 @@ LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 54.
 LaTeX Font Info:    Redeclaring math symbol \Phi on input line 55.
 LaTeX Font Info:    Redeclaring math symbol \Psi on input line 56.
 LaTeX Font Info:    Redeclaring math symbol \Omega on input line 57.
-\symEulerFraktur=\mathgroup6
+\symEulerFraktur=\mathgroup7
 LaTeX Font Info:    Overwriting symbol font `EulerFraktur' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 63.
 LaTeX Font Info:    Redeclaring math alphabet \mathfrak on input line 64.
 LaTeX Info: Redefining \oldstylenums on input line 85.
-\symEulerScript=\mathgroup7
+\symEulerScript=\mathgroup8
 LaTeX Font Info:    Overwriting symbol font `EulerScript' in version `bold'
 (Font)                  U/eus/m/n --> U/eus/b/n on input line 93.
 LaTeX Font Info:    Redeclaring math symbol \aleph on input line 97.
@@ -563,7 +569,7 @@ LaTeX Font Info:    Redeclaring math symbol \sim on input line 113.
 LaTeX Font Info:    Redeclaring math symbol \mid on input line 114.
 LaTeX Font Info:    Redeclaring math delimiter \arrowvert on input line 116.
 LaTeX Font Info:    Redeclaring math symbol \mathsection on input line 117.
-\symEulerExtension=\mathgroup8
+\symEulerExtension=\mathgroup9
 LaTeX Font Info:    Redeclaring math symbol \coprod@ on input line 125.
 LaTeX Font Info:    Redeclaring math symbol \prod@ on input line 125.
 LaTeX Font Info:    Redeclaring math symbol \sum@ on input line 125.
@@ -598,7 +604,7 @@ LaTeX Font Info:    Redeclaring math symbol \rightharpoondown on input line 180
 .
 LaTeX Font Info:    Redeclaring math delimiter \lbrace on input line 182.
 LaTeX Font Info:    Redeclaring math delimiter \rbrace on input line 184.
-\symcmmigroup=\mathgroup9
+\symcmmigroup=\mathgroup10
 LaTeX Font Info:    Overwriting symbol font `cmmigroup' in version `bold'
 (Font)                  OML/cmm/m/it --> OML/cmm/b/it on input line 200.
 LaTeX Font Info:    Redeclaring math accent \vec on input line 201.
@@ -901,61 +907,79 @@ File: pgfmodulematrix.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 zlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )))
+(/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
+\LTleft=\skip54
+\LTright=\skip55
+\LTpre=\skip56
+\LTpost=\skip57
+\LTchunksize=\count299
+\LTcapwidth=\dimen272
+\LT@head=\box109
+\LT@firsthead=\box110
+\LT@foot=\box111
+\LT@lastfoot=\box112
+\LT@cols=\count300
+\LT@rows=\count301
+\c@LT@tables=\count302
+\c@LT@chunks=\count303
+\LT@p@ftn=\toks37
+)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/gra
 phs/tikzlibrarygraphs.code.tex
 File: tikzlibrarygraphs.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\tikz@lib@auto@number=\count299
-\tikz@qnode@count=\count300
-) (./2.5.1.aux
+\tikz@lib@auto@number=\count304
+\tikz@qnode@count=\count305
+) (./2.2.1.aux
 LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 4
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/cyrillic/t2acmr.fd
 File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 ))
-\openout1 = `2.5.1.aux'.
+\openout1 = `2.2.1.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
 LaTeX Font Info:    Trying to load font information for OT1+ccr on input line 3
-0.
+5.
 
 (/usr/share/texlive/texmf-dist/tex/latex/concmath/ot1ccr.fd
 File: ot1ccr.fd 1999/03/10 v2.0b LaTeX font defs for Concrete math fonts
 )
 LaTeX Font Info:    Trying to load font information for T2A+ccr on input line 3
-0.
+5.
 
 (/usr/share/texlive/texmf-dist/tex/latex/cyrillic/t2accr.fd
 File: t2accr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count301
-\scratchdimen=\dimen272
-\scratchbox=\box109
-\nofMPsegments=\count302
-\nofMParguments=\count303
-\everyMPshowfont=\toks37
-\MPscratchCnt=\count304
-\MPscratchDim=\dimen273
-\MPnumerator=\count305
-\makeMPintoPDFobject=\count306
-\everyMPtoPDFconversion=\toks38
+\scratchcounter=\count306
+\scratchdimen=\dimen273
+\scratchbox=\box113
+\nofMPsegments=\count307
+\nofMParguments=\count308
+\everyMPshowfont=\toks38
+\MPscratchCnt=\count309
+\MPscratchDim=\dimen274
+\MPnumerator=\count310
+\makeMPintoPDFobject=\count311
+\everyMPtoPDFconversion=\toks39
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -965,165 +989,114 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 30.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 35.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/ccr/m/n --> OT1/ccr/m/up on input line 30.
+(Font)                  OT1/ccr/m/n --> OT1/ccr/m/up on input line 35.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/ccr/bx/n --> OT1/ccr/m/up on input line 30.
+(Font)                  OT1/ccr/bx/n --> OT1/ccr/m/up on input line 35.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/ccr/m/up --> OT1/ccr/b/up on input line 30.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 30.
+(Font)                  OT1/ccr/m/up --> OT1/ccr/b/up on input line 35.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 35.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/ccr/bx/n --> OT1/ccr/b/up on input line 30.
+(Font)                  OT1/ccr/bx/n --> OT1/ccr/b/up on input line 35.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/ccr/bx/n --> OT1/ccr/b/up on input line 30.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 30.
+(Font)                  OT1/ccr/bx/n --> OT1/ccr/b/up on input line 35.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 35.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/m/up on input line 30.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/up on input line 35.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/up on input line 30.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 30.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/up on input line 35.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 35.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/ccr/m/it --> OT1/ccr/m/it on input line 30.
+(Font)                  OT1/ccr/m/it --> OT1/ccr/m/it on input line 35.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/ccr/m/it --> OT1/ccr/m/it on input line 30.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 30.
+(Font)                  OT1/ccr/m/it --> OT1/ccr/m/it on input line 35.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 35.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/up on input line 30.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/up on input line 35.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/up on input line 30.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/up on input line 35.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/m/up --> OT1/cmss/b/up on input line 30.
+(Font)                  OT1/cmss/m/up --> OT1/cmss/b/up on input line 35.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/ccr/m/it --> OT1/ccr/b/it on input line 30.
+(Font)                  OT1/ccr/m/it --> OT1/ccr/b/it on input line 35.
 
 ABD: EveryShipout initializing macros
-LaTeX Font Info:    Trying to load font information for TS1+ccr on input line 4
-0.
-
-(/usr/share/texlive/texmf-dist/tex/latex/ccfonts/ts1ccr.fd
-File: ts1ccr.fd 1999/11/22 v1.0a (WaS)
-)
 
 LaTeX Font Warning: Font shape `OT1/ccr/m/up' undefined
-(Font)              using `OT1/ccr/m/n' instead on input line 45.
+(Font)              using `OT1/ccr/m/n' instead on input line 36.
 
-LaTeX Font Info:    Trying to load font information for U+eur on input line 45.
+LaTeX Font Info:    Trying to load font information for U+eur on input line 36.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/ueur.fd
 File: ueur.fd 2013/01/14 v3.01 Euler Roman
 )
 LaTeX Font Info:    Trying to load font information for OMS+ccsy on input line 
-45.
+36.
 
 (/usr/share/texlive/texmf-dist/tex/latex/concmath/omsccsy.fd
 File: omsccsy.fd 1999/03/10 v2.0b LaTeX font defs for Concrete math fonts
 )
 LaTeX Font Info:    Trying to load font information for OMX+ccex on input line 
-45.
+36.
 
 (/usr/share/texlive/texmf-dist/tex/latex/concmath/omxccex.fd
 File: omxccex.fd 1999/03/10 v2.0b LaTeX font defs for Concrete math fonts
 )
 LaTeX Font Info:    External font `xccex10' loaded for size
-(Font)              <12> on input line 45.
+(Font)              <14.4> on input line 36.
 LaTeX Font Info:    External font `xccex10' loaded for size
-(Font)              <8> on input line 45.
+(Font)              <10> on input line 36.
 LaTeX Font Info:    External font `xccex10' loaded for size
-(Font)              <6> on input line 45.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 45.
+(Font)              <7> on input line 36.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 36.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 45.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 36.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+euf on input line 45.
 
+LaTeX Font Warning: Font shape `T2A/cmr/m/up' undefined
+(Font)              using `T2A/cmr/m/n' instead on input line 36.
+
+LaTeX Font Info:    Trying to load font information for U+euf on input line 36.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/ueuf.fd
 File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
 )
-LaTeX Font Info:    Trying to load font information for U+eus on input line 45.
+LaTeX Font Info:    Trying to load font information for U+eus on input line 36.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/ueus.fd
 File: ueus.fd 2013/01/14 v3.01 Euler Script
 )
-LaTeX Font Info:    Trying to load font information for U+euex on input line 45
+LaTeX Font Info:    Trying to load font information for U+euex on input line 36
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/ueuex.fd
 File: ueuex.fd 2013/01/14 v3.01 Euler extra symbols
 )
-Underfull \hbox (badness 10000) in paragraph at lines 47--49
-
- []
-
 
 LaTeX Font Warning: Font shape `T2A/ccr/b/n' undefined
-(Font)              using `T2A/ccr/bx/n' instead on input line 50.
+(Font)              using `T2A/ccr/bx/n' instead on input line 39.
 
 LaTeX Font Info:    Font shape `T2A/ccr/bx/n' in size <12> not available
-(Font)              Font shape `T2A/cmr/bx/n' tried instead on input line 50.
+(Font)              Font shape `T2A/cmr/bx/n' tried instead on input line 39.
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--51
+LaTeX Font Warning: Font shape `T2A/ccr/b/n' undefined
+(Font)              using `T2A/ccr/bx/n' instead on input line 42.
 
- []
-
-
-LaTeX Warning: Command \CYRK invalid in math mode on input line 52.
-
-Missing character: There is no � in font ccr10!
-
-Underfull \hbox (badness 10000) in paragraph at lines 52--53
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 54--55
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 56--57
-
- []
-
-
-LaTeX Warning: Command \cyri invalid in math mode on input line 58.
-
-
-LaTeX Warning: Command \cyrt invalid in math mode on input line 58.
-
-
-LaTeX Warning: Command \cyro invalid in math mode on input line 58.
-
-
-LaTeX Warning: Command \cyrg invalid in math mode on input line 58.
-
-
-LaTeX Warning: Command \cyrd invalid in math mode on input line 58.
-
-
-LaTeX Warning: Command \cyra invalid in math mode on input line 58.
-
-Missing character: There is no � in font ccr10!
-Missing character: There is no � in font ccr10!
-Missing character: There is no � in font ccr10!
-Missing character: There is no � in font ccr10!
-Missing character: There is no � in font ccr10!
-Missing character: There is no � in font ccr10!
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--59
-
- []
-
+<pictures/1.png, id=4, 341.8371pt x 499.3857pt>
+File: pictures/1.png Graphic file (type png)
+<use pictures/1.png>
+Package pdftex.def Info: pictures/1.png  used on input line 44.
+(pdftex.def)             Requested size: 512.75436pt x 749.0767pt.
 
 Overfull \vbox (92.1869pt too high) has occurred while \output is active []
 
@@ -1131,181 +1104,155 @@ Overfull \vbox (92.1869pt too high) has occurred while \output is active []
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+Overfull \vbox (92.1869pt too high) has occurred while \output is active []
+
+
+[2 <./pictures/1.png>]
+<pictures/2.png, id=17, 335.3328pt x 456.0237pt>
+File: pictures/2.png Graphic file (type png)
+<use pictures/2.png>
+Package pdftex.def Info: pictures/2.png  used on input line 46.
+(pdftex.def)             Requested size: 502.99796pt x 684.03387pt.
+
+Overfull \vbox (92.1869pt too high) has occurred while \output is active []
+
+
+[3 <./pictures/2.png>]
+<pictures/3.png, id=22, 339.669pt x 508.0581pt>
+File: pictures/3.png Graphic file (type png)
+<use pictures/3.png>
+Package pdftex.def Info: pictures/3.png  used on input line 48.
+(pdftex.def)             Requested size: 509.50224pt x 762.08528pt.
+
+Overfull \vbox (92.1869pt too high) has occurred while \output is active []
+
+
+[4 <./pictures/3.png>]
+<pictures/4.png, id=27, 336.0555pt x 511.6716pt>
+File: pictures/4.png Graphic file (type png)
+<use pictures/4.png>
+Package pdftex.def Info: pictures/4.png  used on input line 50.
+(pdftex.def)             Requested size: 504.082pt x 767.50552pt.
+
+Overfull \vbox (92.1869pt too high) has occurred while \output is active []
+
+
+[5 <./pictures/4.png>]
+<pictures/5.png, id=32, 334.6101pt x 104.7915pt>
+File: pictures/5.png Graphic file (type png)
+<use pictures/5.png>
+Package pdftex.def Info: pictures/5.png  used on input line 52.
+(pdftex.def)             Requested size: 501.91393pt x 157.18686pt.
+
 
 LaTeX Font Warning: Font shape `T2A/ccr/b/n' undefined
-(Font)              using `T2A/ccr/bx/n' instead on input line 60.
+(Font)              using `T2A/ccr/bx/n' instead on input line 54.
 
+<pictures/Workplace.png, id=33, 230.5413pt x 263.0628pt>
+File: pictures/Workplace.png Graphic file (type png)
+<use pictures/Workplace.png>
+Package pdftex.def Info: pictures/Workplace.png  used on input line 55.
+(pdftex.def)             Requested size: 345.81111pt x 394.59322pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--61
+LaTeX Font Warning: Font shape `T2A/ccr/b/n' undefined
+(Font)              using `T2A/ccr/bx/n' instead on input line 58.
 
- []
+LaTeX Font Info:    External font `xccex10' loaded for size
+(Font)              <12> on input line 60.
+LaTeX Font Info:    External font `xccex10' loaded for size
+(Font)              <8> on input line 60.
+LaTeX Font Info:    External font `xccex10' loaded for size
+(Font)              <6> on input line 60.
 
-<pictures/image001_35.jpg, id=14, 407.27156pt x 268.75406pt>
-File: pictures/image001_35.jpg Graphic file (type jpg)
-<use pictures/image001_35.jpg>
-Package pdftex.def Info: pictures/image001_35.jpg  used on input line 63.
-(pdftex.def)             Requested size: 325.81767pt x 215.00354pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 65--75
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 65--75
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 65--75
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 65--75
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 65--75
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 65--75
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 65--75
-
+Underfull \vbox (badness 10000) detected at line 83
  []
 
 
 Overfull \vbox (92.1869pt too high) has occurred while \output is active []
 
 
-[2 <./pictures/image001_35.jpg>]
-<pictures/загруженное.png, id=20, 379.4175pt x 248.93pt>
-File: pictures/загруженное.png Graphic file (type png)
-<use pictures/загруженное.png>
-Package pdftex.def Info: pictures/загруженное.png  used on input lin
-e 109.
-(pdftex.def)             Requested size: 303.53441pt x 199.14426pt.
+[6 <./pictures/5.png> <./pictures/Workplace.png>]
+<pictures/ut.png, id=44, 775.89874pt x 770.88pt>
+File: pictures/ut.png Graphic file (type png)
+<use pictures/ut.png>
+Package pdftex.def Info: pictures/ut.png  used on input line 109.
+(pdftex.def)             Requested size: 387.94843pt x 385.43906pt.
+<pictures/lnut.png, id=45, 787.94376pt x 770.88pt>
+File: pictures/lnut.png Graphic file (type png)
+<use pictures/lnut.png>
+Package pdftex.def Info: pictures/lnut.png  used on input line 110.
+(pdftex.def)             Requested size: 393.97092pt x 385.43906pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--114
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 81--114
-
- []
+Overfull \vbox (92.1869pt too high) has occurred while \output is active []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--114
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 81--114
-
- []
+[7]
+Overfull \vbox (92.1869pt too high) has occurred while \output is active []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--114
+[8 <./pictures/ut.png> <./pictures/lnut.png>]
+LaTeX Font Info:    Trying to load font information for TS1+ccr on input line 1
+14.
 
- []
+(/usr/share/texlive/texmf-dist/tex/latex/ccfonts/ts1ccr.fd
+File: ts1ccr.fd 1999/11/22 v1.0a (WaS)
+)
+<pictures/dp.png, id=55, 782.925pt x 792.9625pt>
+File: pictures/dp.png Graphic file (type png)
+<use pictures/dp.png>
+Package pdftex.def Info: pictures/dp.png  used on input line 126.
+(pdftex.def)             Requested size: 391.46155pt x 396.48027pt.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 81--114
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 81--114
+Underfull \hbox (badness 10000) in paragraph at lines 128--129
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--114
+Underfull \hbox (badness 10000) in paragraph at lines 133--134
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--114
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 81--114
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 81--114
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 81--114
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 81--114
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 81--114
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 81--114
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 81--114
-
- []
+LaTeX Font Warning: Font shape `T2A/ccr/b/n' undefined
+(Font)              using `T2A/ccr/bx/n' instead on input line 139.
 
 
 Overfull \vbox (92.1869pt too high) has occurred while \output is active []
 
 
-[3]
+[9 <./pictures/dp.png>]
 Overfull \vbox (92.1869pt too high) has occurred while \output is active []
 
 
-[4 <./pictures/загруженное.png>] (./2.5.1.aux)
+[10] (./2.2.1.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 15566 strings out of 481239
- 307903 string characters out of 5920377
- 632816 words of memory out of 5000000
- 30501 multiletter control sequences out of 15000+600000
- 542433 words of font info for 57 fonts, out of 8000000 for 9000
+ 16087 strings out of 481239
+ 315269 string characters out of 5920377
+ 645409 words of memory out of 5000000
+ 31001 multiletter control sequences out of 15000+600000
+ 556097 words of font info for 91 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,8n,60p,1591b,189s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,6n,60p,849b,277s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/kir/.texlive2019/texmf-var/fonts/pk/ljfour/public/concmath-fonts/xcce
-x10.600pk> </home/kir/.texlive2019/texmf-var/fonts/pk/ljfour/public/concmath-fo
-nts/xccsy10.720pk> </home/kir/.texlive2019/texmf-var/fonts/pk/ljfour/public/con
-cmath-fonts/xccsy8.600pk>{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t2
-a.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/t
-exlive/texmf-dist/fonts/type1/public/amsfonts/euler/euex10.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb></usr/share/texmf/font
-s/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-su
-per/sform10.pfb>
-Output written on 2.5.1.pdf (4 pages, 95693 bytes).
+x10.600pk>{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t2a.enc}{/usr/sha
+re/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc} </home/kir/.texlive2019/tex
+mf-var/fonts/pk/ljfour/public/concmath-fonts/xccsy10.720pk> </home/kir/.texlive
+2019/texmf-var/fonts/pk/ljfour/public/concrete/ccr10.720pk></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/euler/eurm7.pfb></usr/share/texmf/fonts/type1/
+public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfor
+m10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sform8.pfb></usr/share/te
+xmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/publ
+ic/cm-super/sfrm1200.pfb>
+Output written on 2.2.1.pdf (10 pages, 475226 bytes).
 PDF statistics:
- 65 PDF objects out of 1000 (max. 8388607)
- 45 compressed objects within 1 object stream
+ 116 PDF objects out of 1000 (max. 8388607)
+ 68 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 23 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 58 words of extra memory for PDF output out of 10000 (max. 10000000)
 
