@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.3.19)  24 APR 2021 14:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.3.19)  26 APR 2021 23:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**2.2.1.tex
-(./2.2.1.tex
+**2.1.4.tex
+(./2.1.4.tex
 LaTeX2e <2020-02-02> patch level 2
 L3 programming layer <2020-02-14>
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -930,14 +930,14 @@ phs/tikzlibrarygraphs.code.tex
 File: tikzlibrarygraphs.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \tikz@lib@auto@number=\count304
 \tikz@qnode@count=\count305
-) (./2.2.1.aux
+) (./2.1.4.aux
 LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 4
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/cyrillic/t2acmr.fd
 File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 ))
-\openout1 = `2.2.1.aux'.
+\openout1 = `2.1.4.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
 LaTeX Font Info:    ... okay on input line 35.
@@ -1084,19 +1084,24 @@ File: ueuex.fd 2013/01/14 v3.01 Euler extra symbols
 )
 
 LaTeX Font Warning: Font shape `T2A/ccr/b/n' undefined
-(Font)              using `T2A/ccr/bx/n' instead on input line 39.
+(Font)              using `T2A/ccr/bx/n' instead on input line 38.
 
 LaTeX Font Info:    Font shape `T2A/ccr/bx/n' in size <12> not available
-(Font)              Font shape `T2A/cmr/bx/n' tried instead on input line 39.
+(Font)              Font shape `T2A/cmr/bx/n' tried instead on input line 38.
+LaTeX Font Info:    External font `xccex10' loaded for size
+(Font)              <12> on input line 38.
+LaTeX Font Info:    External font `xccex10' loaded for size
+(Font)              <8> on input line 38.
+LaTeX Font Info:    External font `xccex10' loaded for size
+(Font)              <6> on input line 38.
+
+LaTeX Font Warning: Font shape `T2A/ccr/b/n' undefined
+(Font)              using `T2A/ccr/bx/n' instead on input line 40.
+
 
 LaTeX Font Warning: Font shape `T2A/ccr/b/n' undefined
 (Font)              using `T2A/ccr/bx/n' instead on input line 42.
 
-<pictures/1.png, id=4, 341.8371pt x 499.3857pt>
-File: pictures/1.png Graphic file (type png)
-<use pictures/1.png>
-Package pdftex.def Info: pictures/1.png  used on input line 44.
-(pdftex.def)             Requested size: 512.75436pt x 749.0767pt.
 
 Overfull \vbox (92.1869pt too high) has occurred while \output is active []
 
@@ -1107,152 +1112,163 @@ Overfull \vbox (92.1869pt too high) has occurred while \output is active []
 Overfull \vbox (92.1869pt too high) has occurred while \output is active []
 
 
-[2 <./pictures/1.png>]
-<pictures/2.png, id=17, 335.3328pt x 456.0237pt>
-File: pictures/2.png Graphic file (type png)
-<use pictures/2.png>
-Package pdftex.def Info: pictures/2.png  used on input line 46.
-(pdftex.def)             Requested size: 502.99796pt x 684.03387pt.
-
-Overfull \vbox (92.1869pt too high) has occurred while \output is active []
-
-
-[3 <./pictures/2.png>]
-<pictures/3.png, id=22, 339.669pt x 508.0581pt>
-File: pictures/3.png Graphic file (type png)
-<use pictures/3.png>
-Package pdftex.def Info: pictures/3.png  used on input line 48.
-(pdftex.def)             Requested size: 509.50224pt x 762.08528pt.
-
-Overfull \vbox (92.1869pt too high) has occurred while \output is active []
-
-
-[4 <./pictures/3.png>]
-<pictures/4.png, id=27, 336.0555pt x 511.6716pt>
-File: pictures/4.png Graphic file (type png)
-<use pictures/4.png>
-Package pdftex.def Info: pictures/4.png  used on input line 50.
-(pdftex.def)             Requested size: 504.082pt x 767.50552pt.
-
-Overfull \vbox (92.1869pt too high) has occurred while \output is active []
-
-
-[5 <./pictures/4.png>]
-<pictures/5.png, id=32, 334.6101pt x 104.7915pt>
-File: pictures/5.png Graphic file (type png)
-<use pictures/5.png>
-Package pdftex.def Info: pictures/5.png  used on input line 52.
-(pdftex.def)             Requested size: 501.91393pt x 157.18686pt.
-
+[2]
 
 LaTeX Font Warning: Font shape `T2A/ccr/b/n' undefined
-(Font)              using `T2A/ccr/bx/n' instead on input line 54.
+(Font)              using `T2A/ccr/bx/n' instead on input line 103.
 
-<pictures/Workplace.png, id=33, 230.5413pt x 263.0628pt>
-File: pictures/Workplace.png Graphic file (type png)
-<use pictures/Workplace.png>
-Package pdftex.def Info: pictures/Workplace.png  used on input line 55.
-(pdftex.def)             Requested size: 345.81111pt x 394.59322pt.
-
-LaTeX Font Warning: Font shape `T2A/ccr/b/n' undefined
-(Font)              using `T2A/ccr/bx/n' instead on input line 58.
-
-LaTeX Font Info:    External font `xccex10' loaded for size
-(Font)              <12> on input line 60.
-LaTeX Font Info:    External font `xccex10' loaded for size
-(Font)              <8> on input line 60.
-LaTeX Font Info:    External font `xccex10' loaded for size
-(Font)              <6> on input line 60.
-
-Underfull \vbox (badness 10000) detected at line 83
- []
-
+<pictures/g1.png, id=19, 797.98125pt x 770.88pt>
+File: pictures/g1.png Graphic file (type png)
+<use pictures/g1.png>
+Package pdftex.def Info: pictures/g1.png  used on input line 123.
+(pdftex.def)             Requested size: 398.98964pt x 385.43906pt.
 
 Overfull \vbox (92.1869pt too high) has occurred while \output is active []
 
 
-[6 <./pictures/5.png> <./pictures/Workplace.png>]
-<pictures/ut.png, id=44, 775.89874pt x 770.88pt>
-File: pictures/ut.png Graphic file (type png)
-<use pictures/ut.png>
-Package pdftex.def Info: pictures/ut.png  used on input line 109.
-(pdftex.def)             Requested size: 387.94843pt x 385.43906pt.
-<pictures/lnut.png, id=45, 787.94376pt x 770.88pt>
-File: pictures/lnut.png Graphic file (type png)
-<use pictures/lnut.png>
-Package pdftex.def Info: pictures/lnut.png  used on input line 110.
-(pdftex.def)             Requested size: 393.97092pt x 385.43906pt.
-
-Overfull \vbox (92.1869pt too high) has occurred while \output is active []
-
-
-[7]
-Overfull \vbox (92.1869pt too high) has occurred while \output is active []
-
-
-[8 <./pictures/ut.png> <./pictures/lnut.png>]
+[3 <./pictures/g1.png>]
 LaTeX Font Info:    Trying to load font information for TS1+ccr on input line 1
-14.
+34.
 
 (/usr/share/texlive/texmf-dist/tex/latex/ccfonts/ts1ccr.fd
 File: ts1ccr.fd 1999/11/22 v1.0a (WaS)
 )
-<pictures/dp.png, id=55, 782.925pt x 792.9625pt>
-File: pictures/dp.png Graphic file (type png)
-<use pictures/dp.png>
-Package pdftex.def Info: pictures/dp.png  used on input line 126.
-(pdftex.def)             Requested size: 391.46155pt x 396.48027pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 128--129
+Underfull \hbox (badness 10000) in paragraph at lines 134--135
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--134
+Underfull \hbox (badness 10000) in paragraph at lines 136--142
 
  []
+
+<pictures/g2.png, id=28, 797.98125pt x 770.88pt>
+File: pictures/g2.png Graphic file (type png)
+<use pictures/g2.png>
+Package pdftex.def Info: pictures/g2.png  used on input line 144.
+(pdftex.def)             Requested size: 398.98964pt x 385.43906pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 147--149
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 150--151
+
+ []
+
+
+Overfull \vbox (92.1869pt too high) has occurred while \output is active []
+
+
+[4 <./pictures/g2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 152--154
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 152--154
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 155--156
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 157--163
+
+ []
+
+<pictures/g3.png, id=37, 804.00375pt x 770.88pt>
+File: pictures/g3.png Graphic file (type png)
+<use pictures/g3.png>
+Package pdftex.def Info: pictures/g3.png  used on input line 165.
+(pdftex.def)             Requested size: 402.0009pt x 385.43906pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 168--170
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 171--172
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 173--175
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 173--175
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 177--178
+
+ []
+
+
+Overfull \vbox (92.1869pt too high) has occurred while \output is active []
+
+
+[5 <./pictures/g3.png>]
+<pictures/g4.png, id=42, 785.93625pt x 770.88pt>
+File: pictures/g4.png Graphic file (type png)
+<use pictures/g4.png>
+Package pdftex.def Info: pictures/g4.png  used on input line 179.
+(pdftex.def)             Requested size: 392.96716pt x 385.43906pt.
 
 
 LaTeX Font Warning: Font shape `T2A/ccr/b/n' undefined
-(Font)              using `T2A/ccr/bx/n' instead on input line 139.
+(Font)              using `T2A/ccr/bx/n' instead on input line 184.
+
+
+Overfull \hbox (18.94017pt too wide) in paragraph at lines 184--185
+ \T2A/cmr/bx/n/12 Вы-вод:[] \T2A/ccr/m/n/12 В хо-де ра-бо-ты мною бы-ли из-ме-р
+е-ны удель-ные теп-ло-ем-ко-сти алю-ми-ния ($\U/eur/m/n/12 C \U/euf/m/n/12 = \U
+/eur/m/n/12 889:8$ \T2A/ccr/m/n/12 Дж/кг$\OMS/ccsy/m/n/12 ^^A$\T2A/ccr/m/n/12 K
+)
+ []
 
 
 Overfull \vbox (92.1869pt too high) has occurred while \output is active []
 
 
-[9 <./pictures/dp.png>]
-Overfull \vbox (92.1869pt too high) has occurred while \output is active []
-
-
-[10] (./2.2.1.aux)
+[6 <./pictures/g4.png>] (./2.1.4.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 16087 strings out of 481239
- 315269 string characters out of 5920377
- 645409 words of memory out of 5000000
- 31001 multiletter control sequences out of 15000+600000
- 556097 words of font info for 91 fonts, out of 8000000 for 9000
+ 16053 strings out of 481239
+ 314750 string characters out of 5920377
+ 631311 words of memory out of 5000000
+ 30973 multiletter control sequences out of 15000+600000
+ 554267 words of font info for 89 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,6n,60p,849b,277s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/kir/.texlive2019/texmf-var/fonts/pk/ljfour/public/concmath-fonts/xcce
-x10.600pk>{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t2a.enc}{/usr/sha
-re/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc} </home/kir/.texlive2019/tex
-mf-var/fonts/pk/ljfour/public/concmath-fonts/xccsy10.720pk> </home/kir/.texlive
-2019/texmf-var/fonts/pk/ljfour/public/concrete/ccr10.720pk></usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/euler/eurm7.pfb></usr/share/texmf/fonts/type1/
-public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfor
-m10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sform8.pfb></usr/share/te
-xmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/publ
-ic/cm-super/sfrm1200.pfb>
-Output written on 2.2.1.pdf (10 pages, 475226 bytes).
+ 60i,7n,60p,1560b,306s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc} </home/kir/.texl
+ive2019/texmf-var/fonts/pk/ljfour/public/concmath-fonts/xccsy10.720pk>{/usr/sha
+re/texmf/fonts/enc/dvips/cm-super/cm-super-t2a.enc} </home/kir/.texlive2019/tex
+mf-var/fonts/pk/ljfour/public/concrete/ccr10.720pk> </home/kir/.texlive2019/tex
+mf-var/fonts/pk/ljfour/public/concmath-fonts/xccex10.600pk></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/euler/euex10.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/euler/eurm10.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/euler/eurm7.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/euler/eusm10.pfb></usr/share/texmf/fonts/type1/public
+/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sform10.pf
+b></usr/share/texmf/fonts/type1/public/cm-super/sfrm0600.pfb></usr/share/texmf/
+fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/c
+m-super/sfrm1200.pfb>
+Output written on 2.1.4.pdf (6 pages, 189923 bytes).
 PDF statistics:
- 116 PDF objects out of 1000 (max. 8388607)
- 68 compressed objects within 1 object stream
+ 98 PDF objects out of 1000 (max. 8388607)
+ 64 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 58 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 33 words of extra memory for PDF output out of 10000 (max. 10000000)
 
