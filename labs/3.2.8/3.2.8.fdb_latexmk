@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1634656382 "/media/yanelox/Новый том/linux_work/LaTEX/labs/3.2.8/3.2.8.tex" "/media/yanelox/Новый том/linux_work/LaTEX/labs/3.2.8/3.2.8.pdf" "3.2.8" 1634656383
+["pdflatex"] 1634995759 "/media/yanelox/Новый том/linux_work/LaTEX/labs/3.2.8/3.2.8.tex" "/media/yanelox/Новый том/linux_work/LaTEX/labs/3.2.8/3.2.8.pdf" "3.2.8" 1634995760
   "/etc/texmf/web2c/texmf.cnf" 1631561702 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/yanelox/.texlive2019/texmf-var/fonts/tfm/lh/lh-t2a/labx1200.tfm" 1631562894 3308 eee81981029f67083258db36df06e523 ""
   "/home/yanelox/.texlive2019/texmf-var/fonts/tfm/lh/lh-t2a/labx1728.tfm" 1631567292 3312 d199be9bd555944e2403193d58a0256a ""
@@ -11,8 +11,8 @@
   "/home/yanelox/.texlive2019/texmf-var/fonts/tfm/lh/lh-t2a/larm1440.tfm" 1631562884 3256 3daaa33cf35cf3f354983aa3214ecd7f ""
   "/home/yanelox/.texlive2019/texmf-var/fonts/tfm/lh/lh-t2a/larm1728.tfm" 1631567288 3252 92d08740ce00199d6cf9ff4aaada81d1 ""
   "/home/yanelox/.texlive2019/texmf-var/fonts/tfm/lh/lh-t2a/larm2074.tfm" 1631562880 3264 03c2b9e4787a40d3b9c197c38b93b558 ""
-  "/media/yanelox/Новый том/linux_work/LaTEX/labs/3.2.8/3.2.8.aux" 1634656383 2154 dd3d9ba49418721fbefb8b469b226ab6 ""
-  "/media/yanelox/Новый том/linux_work/LaTEX/labs/3.2.8/3.2.8.tex" 1634656381 19807 5a016aaac559b1409c9d4277c5230b71 ""
+  "/media/yanelox/Новый том/linux_work/LaTEX/labs/3.2.8/3.2.8.aux" 1634995760 2154 dd3d9ba49418721fbefb8b469b226ab6 ""
+  "/media/yanelox/Новый том/linux_work/LaTEX/labs/3.2.8/3.2.8.tex" 1634995758 19807 5a016aaac559b1409c9d4277c5230b71 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -107,9 +107,9 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1581979058 38841 ce3692aa899bb693b90b87eaa5d4d84e ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1631561757 4770781 1ed1abab22da9c3e2cc82e4db562318b ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1631561824 8259055 30ccb4d20f02e19329b44c7ae1167588 ""
-  "3.2.8.aux" 1634656383 2154 dd3d9ba49418721fbefb8b469b226ab6 "pdflatex"
-  "3.2.8.tex" 1634656381 19807 5a016aaac559b1409c9d4277c5230b71 ""
-  "pictures/graph1.png" 1634634582 25391 05acfe316d8e030aa1fbedcab88a65da ""
+  "3.2.8.aux" 1634995760 2154 dd3d9ba49418721fbefb8b469b226ab6 "pdflatex"
+  "3.2.8.tex" 1634995758 19807 5a016aaac559b1409c9d4277c5230b71 ""
+  "pictures/graph1.png" 1634995736 37749 596c366388fb2456fc890e20ba19d7a4 ""
   "pictures/graph2.png" 1634635697 53335 2e1f9cbf4176e4ab1b65497f0b09acd1 ""
   "pictures/graph3.png" 1634635766 51746 cb6092af969daf008779b20231e4e9ff ""
   "pictures/pic1.jpg" 1634643876 24194 abc303d42a177b544a05d0c0aca763cc ""
@@ -122,8 +122,8 @@
   "pictures/pic8.jpg" 1634655205 275192 9b85dde472b92097c8a299a2682932c4 ""
   "pictures/pic9.jpg" 1634655223 302646 3b6a7ce6aefcf4be0ccadad6b087a3d0 ""
   (generated)
-  "3.2.8.aux"
   "3.2.8.pdf"
-  "/media/yanelox/Новый том/linux_work/LaTEX/labs/3.2.8/3.2.8.log"
-  "3.2.8.log"
   "/media/yanelox/Новый том/linux_work/LaTEX/labs/3.2.8/3.2.8.pdf"
+  "3.2.8.log"
+  "3.2.8.aux"
+  "/media/yanelox/Новый том/linux_work/LaTEX/labs/3.2.8/3.2.8.log"
