@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.9.13)  23 OCT 2021 16:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.9.13)  19 NOV 2021 23:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/media/yanelox/РќРѕРІС‹Р№ С‚РѕРј/linux_work/LaTEX/labs/3.2.8/3.2.8.tex"
-(/media/yanelox/РќРѕРІС‹Р№ С‚РѕРј/linux_work/LaTEX/labs/3.2.8/3.2.8.tex
+**/media/yanelox/DISK1/linux_work/LaTEX/labs/3.2.8/3.2.8.tex
+(/media/yanelox/DISK1/linux_work/LaTEX/labs/3.2.8/3.2.8.tex
 LaTeX2e <2020-02-02> patch level 2
 L3 programming layer <2020-02-14> (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
@@ -510,7 +510,7 @@ Package caption Info: wrapfig package is loaded.
 File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count277
 \l__pdf_internal_box=\box54
-) (/media/yanelox/РќРѕРІС‹Р№ С‚РѕРј/linux_work/LaTEX/labs/3.2.8/3.2.8.aux)
+) (/media/yanelox/DISK1/linux_work/LaTEX/labs/3.2.8/3.2.8.aux)
 \openout1 = `3.2.8.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
@@ -675,7 +675,7 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/up' in size <6> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 69.
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} </media/yanelox/РќРѕРІС‹Р№ С‚РѕРј/linux_work/LaTEX/labs/3.2.8/pictures/pic1.jpg> </media/yanelox/РќРѕРІС‹Р№ С‚РѕРј/linux_work/LaTEX/labs/3.2.8/pictures/pic2.jpg>]
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} </media/yanelox/DISK1/linux_work/LaTEX/labs/3.2.8/pictures/pic1.jpg> </media/yanelox/DISK1/linux_work/LaTEX/labs/3.2.8/pictures/pic2.jpg>]
 <pictures/pic3.jpg, id=19, 513.92pt x 557.08125pt>
 File: pictures/pic3.jpg Graphic file (type jpg)
 <use pictures/pic3.jpg>
@@ -691,7 +691,7 @@ Overfull \hbox (18.69856pt too wide) in paragraph at lines 122--123
 [][] 
  []
 
-[2 </media/yanelox/РќРѕРІС‹Р№ С‚РѕРј/linux_work/LaTEX/labs/3.2.8/pictures/pic3.jpg> </media/yanelox/РќРѕРІС‹Р№ С‚РѕРј/linux_work/LaTEX/labs/3.2.8/pictures/pic4.jpg>]
+[2 </media/yanelox/DISK1/linux_work/LaTEX/labs/3.2.8/pictures/pic3.jpg> </media/yanelox/DISK1/linux_work/LaTEX/labs/3.2.8/pictures/pic4.jpg>]
 <pictures/pic5.jpg, id=28, 561.09625pt x 351.3125pt>
 File: pictures/pic5.jpg Graphic file (type jpg)
 <use pictures/pic5.jpg>
@@ -732,7 +732,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 172--173
 
  []
 
-[3 </media/yanelox/РќРѕРІС‹Р№ С‚РѕРј/linux_work/LaTEX/labs/3.2.8/pictures/pic5.jpg>]
+[3 </media/yanelox/DISK1/linux_work/LaTEX/labs/3.2.8/pictures/pic5.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 197--198
 
  []
@@ -747,7 +747,7 @@ File: pictures/pic7.jpg Graphic file (type jpg)
 <use pictures/pic7.jpg>
 Package pdftex.def Info: pictures/pic7.jpg  used on input line 208.
 (pdftex.def)             Requested size: 304.93385pt x 109.8083pt.
-[4 </media/yanelox/РќРѕРІС‹Р№ С‚РѕРј/linux_work/LaTEX/labs/3.2.8/pictures/pic6.jpg> </media/yanelox/РќРѕРІС‹Р№ С‚РѕРј/linux_work/LaTEX/labs/3.2.8/pictures/pic7.jpg>]
+[4 </media/yanelox/DISK1/linux_work/LaTEX/labs/3.2.8/pictures/pic6.jpg> </media/yanelox/DISK1/linux_work/LaTEX/labs/3.2.8/pictures/pic7.jpg>]
 Overfull \hbox (9.52028pt too wide) in paragraph at lines 219--220
 []\T2A/cmr/m/up/12 Не ме-няя па-ра-мет-ров ре-лак-са-ци-он-но-го ге-не-ра-то-ра, умень-шим ча-сто-ту ЗГ вдвое (втрое)
  []
@@ -757,19 +757,19 @@ File: pictures/pic8.jpg Graphic file (type jpg)
 <use pictures/pic8.jpg>
 Package pdftex.def Info: pictures/pic8.jpg  used on input line 223.
 (pdftex.def)             Requested size: 361.65392pt x 481.80373pt.
-[5 </media/yanelox/РќРѕРІС‹Р№ С‚РѕРј/linux_work/LaTEX/labs/3.2.8/pictures/pic8.jpg>]
+[5 </media/yanelox/DISK1/linux_work/LaTEX/labs/3.2.8/pictures/pic8.jpg>]
 <pictures/pic9.jpg, id=44, 1205.50375pt x 1606.0pt>
 File: pictures/pic9.jpg Graphic file (type jpg)
 <use pictures/pic9.jpg>
 Package pdftex.def Info: pictures/pic9.jpg  used on input line 232.
 (pdftex.def)             Requested size: 361.65392pt x 481.80373pt.
- [6 </media/yanelox/РќРѕРІС‹Р№ С‚РѕРј/linux_work/LaTEX/labs/3.2.8/pictures/pic9.jpg>]
+ [6 </media/yanelox/DISK1/linux_work/LaTEX/labs/3.2.8/pictures/pic9.jpg>]
 <pictures/graph1.png, id=48, 1156.32pt x 1156.32pt>
 File: pictures/graph1.png Graphic file (type png)
 <use pictures/graph1.png>
 Package pdftex.def Info: pictures/graph1.png  used on input line 262.
 (pdftex.def)             Requested size: 462.5198pt x 462.5198pt.
- [7 </media/yanelox/РќРѕРІС‹Р№ С‚РѕРј/linux_work/LaTEX/labs/3.2.8/pictures/graph1.png>]
+ [7 </media/yanelox/DISK1/linux_work/LaTEX/labs/3.2.8/pictures/graph1.png>]
 <pictures/graph2.png, id=55, 1156.32pt x 1156.32pt>
 File: pictures/graph2.png Graphic file (type png)
 <use pictures/graph2.png>
@@ -787,21 +787,21 @@ LaTeX Warning: Float too large for page by 1.06151pt on input line 275.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[8 </media/yanelox/РќРѕРІС‹Р№ С‚РѕРј/linux_work/LaTEX/labs/3.2.8/pictures/graph2.png> </media/yanelox/РќРѕРІС‹Р№ С‚РѕРј/linux_work/LaTEX/labs/3.2.8/pictures/graph3.png>] (/media/yanelox/РќРѕРІС‹Р№ С‚РѕРј/linux_work/LaTEX/labs/3.2.8/3.2.8.aux)
+[8 </media/yanelox/DISK1/linux_work/LaTEX/labs/3.2.8/pictures/graph2.png> </media/yanelox/DISK1/linux_work/LaTEX/labs/3.2.8/pictures/graph3.png>] (/media/yanelox/DISK1/linux_work/LaTEX/labs/3.2.8/3.2.8.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
  7085 strings out of 481239
- 104230 string characters out of 5920377
+ 104120 string characters out of 5920377
  351050 words of memory out of 5000000
  22164 multiletter control sequences out of 15000+600000
  547651 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,7n,42p,649b,406s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,7n,42p,635b,406s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t2a.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0600.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm2074.pfb>
-Output written on "/media/yanelox/РќРѕРІС‹Р№ С‚РѕРј/linux_work/LaTEX/labs/3.2.8/3.2.8.pdf" (8 pages, 1130929 bytes).
+Output written on /media/yanelox/DISK1/linux_work/LaTEX/labs/3.2.8/3.2.8.pdf (8 pages, 1130929 bytes).
 PDF statistics:
  105 PDF objects out of 1000 (max. 8388607)
  61 compressed objects within 1 object stream

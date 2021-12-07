@@ -1,10 +1,10 @@
-PWD /media/yanelox/Новый том/linux_work/LaTEX/labs/3.2.8
+PWD /media/yanelox/DISK1/linux_work/LaTEX/labs/3.2.8
 INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
-INPUT /media/yanelox/Новый том/linux_work/LaTEX/labs/3.2.8/3.2.8.tex
-OUTPUT /media/yanelox/Новый том/linux_work/LaTEX/labs/3.2.8/3.2.8.log
+INPUT /media/yanelox/DISK1/linux_work/LaTEX/labs/3.2.8/3.2.8.tex
+OUTPUT /media/yanelox/DISK1/linux_work/LaTEX/labs/3.2.8/3.2.8.log
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
@@ -35,7 +35,7 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/cyrillic/t2acmr.fd
 INPUT /usr/share/texlive/texmf-dist/tex/latex/cyrillic/t2acmr.fd
 INPUT /home/yanelox/.texlive2019/texmf-var/fonts/tfm/lh/lh-t2a/larm1200.tfm
 INPUT /usr/share/texlive/texmf-dist/tex/latex/cmap/t2a.cmap
-OUTPUT /media/yanelox/Новый том/linux_work/LaTEX/labs/3.2.8/3.2.8.pdf
+OUTPUT /media/yanelox/DISK1/linux_work/LaTEX/labs/3.2.8/3.2.8.pdf
 INPUT /usr/share/texlive/texmf-dist/tex/latex/cmap/t2a.cmap
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
@@ -102,9 +102,9 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 INPUT /usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
-INPUT /media/yanelox/Новый том/linux_work/LaTEX/labs/3.2.8/3.2.8.aux
-INPUT /media/yanelox/Новый том/linux_work/LaTEX/labs/3.2.8/3.2.8.aux
-OUTPUT /media/yanelox/Новый том/linux_work/LaTEX/labs/3.2.8/3.2.8.aux
+INPUT /media/yanelox/DISK1/linux_work/LaTEX/labs/3.2.8/3.2.8.aux
+INPUT /media/yanelox/DISK1/linux_work/LaTEX/labs/3.2.8/3.2.8.aux
+OUTPUT /media/yanelox/DISK1/linux_work/LaTEX/labs/3.2.8/3.2.8.aux
 INPUT /usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
@@ -143,12 +143,12 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 INPUT /home/yanelox/.texlive2019/texmf-var/fonts/tfm/lh/lh-t2a/labx1200.tfm
-INPUT /media/yanelox/Новый том/linux_work/LaTEX/labs/3.2.8/pictures/pic1.jpg
-INPUT /media/yanelox/Новый том/linux_work/LaTEX/labs/3.2.8/pictures/pic1.jpg
-INPUT /media/yanelox/Новый том/linux_work/LaTEX/labs/3.2.8/pictures/pic1.jpg
-INPUT /media/yanelox/Новый том/linux_work/LaTEX/labs/3.2.8/pictures/pic2.jpg
-INPUT /media/yanelox/Новый том/linux_work/LaTEX/labs/3.2.8/pictures/pic2.jpg
-INPUT /media/yanelox/Новый том/linux_work/LaTEX/labs/3.2.8/pictures/pic2.jpg
+INPUT /media/yanelox/DISK1/linux_work/LaTEX/labs/3.2.8/pictures/pic1.jpg
+INPUT /media/yanelox/DISK1/linux_work/LaTEX/labs/3.2.8/pictures/pic1.jpg
+INPUT /media/yanelox/DISK1/linux_work/LaTEX/labs/3.2.8/pictures/pic1.jpg
+INPUT /media/yanelox/DISK1/linux_work/LaTEX/labs/3.2.8/pictures/pic2.jpg
+INPUT /media/yanelox/DISK1/linux_work/LaTEX/labs/3.2.8/pictures/pic2.jpg
+INPUT /media/yanelox/DISK1/linux_work/LaTEX/labs/3.2.8/pictures/pic2.jpg
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
@@ -169,39 +169,39 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
 INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
-INPUT /media/yanelox/Новый том/linux_work/LaTEX/labs/3.2.8/pictures/pic3.jpg
-INPUT /media/yanelox/Новый том/linux_work/LaTEX/labs/3.2.8/pictures/pic3.jpg
-INPUT /media/yanelox/Новый том/linux_work/LaTEX/labs/3.2.8/pictures/pic3.jpg
-INPUT /media/yanelox/Новый том/linux_work/LaTEX/labs/3.2.8/pictures/pic4.jpg
-INPUT /media/yanelox/Новый том/linux_work/LaTEX/labs/3.2.8/pictures/pic4.jpg
-INPUT /media/yanelox/Новый том/linux_work/LaTEX/labs/3.2.8/pictures/pic4.jpg
+INPUT /media/yanelox/DISK1/linux_work/LaTEX/labs/3.2.8/pictures/pic3.jpg
+INPUT /media/yanelox/DISK1/linux_work/LaTEX/labs/3.2.8/pictures/pic3.jpg
+INPUT /media/yanelox/DISK1/linux_work/LaTEX/labs/3.2.8/pictures/pic3.jpg
+INPUT /media/yanelox/DISK1/linux_work/LaTEX/labs/3.2.8/pictures/pic4.jpg
+INPUT /media/yanelox/DISK1/linux_work/LaTEX/labs/3.2.8/pictures/pic4.jpg
+INPUT /media/yanelox/DISK1/linux_work/LaTEX/labs/3.2.8/pictures/pic4.jpg
 INPUT /home/yanelox/.texlive2019/texmf-var/fonts/tfm/lh/lh-t2a/larm1728.tfm
 INPUT /home/yanelox/.texlive2019/texmf-var/fonts/tfm/lh/lh-t2a/labx1728.tfm
-INPUT /media/yanelox/Новый том/linux_work/LaTEX/labs/3.2.8/pictures/pic5.jpg
-INPUT /media/yanelox/Новый том/linux_work/LaTEX/labs/3.2.8/pictures/pic5.jpg
-INPUT /media/yanelox/Новый том/linux_work/LaTEX/labs/3.2.8/pictures/pic5.jpg
-INPUT /media/yanelox/Новый том/linux_work/LaTEX/labs/3.2.8/pictures/pic6.jpg
-INPUT /media/yanelox/Новый том/linux_work/LaTEX/labs/3.2.8/pictures/pic6.jpg
-INPUT /media/yanelox/Новый том/linux_work/LaTEX/labs/3.2.8/pictures/pic6.jpg
-INPUT /media/yanelox/Новый том/linux_work/LaTEX/labs/3.2.8/pictures/pic7.jpg
-INPUT /media/yanelox/Новый том/linux_work/LaTEX/labs/3.2.8/pictures/pic7.jpg
-INPUT /media/yanelox/Новый том/linux_work/LaTEX/labs/3.2.8/pictures/pic7.jpg
-INPUT /media/yanelox/Новый том/linux_work/LaTEX/labs/3.2.8/pictures/pic8.jpg
-INPUT /media/yanelox/Новый том/linux_work/LaTEX/labs/3.2.8/pictures/pic8.jpg
-INPUT /media/yanelox/Новый том/linux_work/LaTEX/labs/3.2.8/pictures/pic8.jpg
-INPUT /media/yanelox/Новый том/linux_work/LaTEX/labs/3.2.8/pictures/pic9.jpg
-INPUT /media/yanelox/Новый том/linux_work/LaTEX/labs/3.2.8/pictures/pic9.jpg
-INPUT /media/yanelox/Новый том/linux_work/LaTEX/labs/3.2.8/pictures/pic9.jpg
-INPUT /media/yanelox/Новый том/linux_work/LaTEX/labs/3.2.8/pictures/graph1.png
-INPUT /media/yanelox/Новый том/linux_work/LaTEX/labs/3.2.8/pictures/graph1.png
-INPUT /media/yanelox/Новый том/linux_work/LaTEX/labs/3.2.8/pictures/graph1.png
-INPUT /media/yanelox/Новый том/linux_work/LaTEX/labs/3.2.8/pictures/graph2.png
-INPUT /media/yanelox/Новый том/linux_work/LaTEX/labs/3.2.8/pictures/graph2.png
-INPUT /media/yanelox/Новый том/linux_work/LaTEX/labs/3.2.8/pictures/graph2.png
-INPUT /media/yanelox/Новый том/linux_work/LaTEX/labs/3.2.8/pictures/graph3.png
-INPUT /media/yanelox/Новый том/linux_work/LaTEX/labs/3.2.8/pictures/graph3.png
-INPUT /media/yanelox/Новый том/linux_work/LaTEX/labs/3.2.8/pictures/graph3.png
-INPUT /media/yanelox/Новый том/linux_work/LaTEX/labs/3.2.8/3.2.8.aux
+INPUT /media/yanelox/DISK1/linux_work/LaTEX/labs/3.2.8/pictures/pic5.jpg
+INPUT /media/yanelox/DISK1/linux_work/LaTEX/labs/3.2.8/pictures/pic5.jpg
+INPUT /media/yanelox/DISK1/linux_work/LaTEX/labs/3.2.8/pictures/pic5.jpg
+INPUT /media/yanelox/DISK1/linux_work/LaTEX/labs/3.2.8/pictures/pic6.jpg
+INPUT /media/yanelox/DISK1/linux_work/LaTEX/labs/3.2.8/pictures/pic6.jpg
+INPUT /media/yanelox/DISK1/linux_work/LaTEX/labs/3.2.8/pictures/pic6.jpg
+INPUT /media/yanelox/DISK1/linux_work/LaTEX/labs/3.2.8/pictures/pic7.jpg
+INPUT /media/yanelox/DISK1/linux_work/LaTEX/labs/3.2.8/pictures/pic7.jpg
+INPUT /media/yanelox/DISK1/linux_work/LaTEX/labs/3.2.8/pictures/pic7.jpg
+INPUT /media/yanelox/DISK1/linux_work/LaTEX/labs/3.2.8/pictures/pic8.jpg
+INPUT /media/yanelox/DISK1/linux_work/LaTEX/labs/3.2.8/pictures/pic8.jpg
+INPUT /media/yanelox/DISK1/linux_work/LaTEX/labs/3.2.8/pictures/pic8.jpg
+INPUT /media/yanelox/DISK1/linux_work/LaTEX/labs/3.2.8/pictures/pic9.jpg
+INPUT /media/yanelox/DISK1/linux_work/LaTEX/labs/3.2.8/pictures/pic9.jpg
+INPUT /media/yanelox/DISK1/linux_work/LaTEX/labs/3.2.8/pictures/pic9.jpg
+INPUT /media/yanelox/DISK1/linux_work/LaTEX/labs/3.2.8/pictures/graph1.png
+INPUT /media/yanelox/DISK1/linux_work/LaTEX/labs/3.2.8/pictures/graph1.png
+INPUT /media/yanelox/DISK1/linux_work/LaTEX/labs/3.2.8/pictures/graph1.png
+INPUT /media/yanelox/DISK1/linux_work/LaTEX/labs/3.2.8/pictures/graph2.png
+INPUT /media/yanelox/DISK1/linux_work/LaTEX/labs/3.2.8/pictures/graph2.png
+INPUT /media/yanelox/DISK1/linux_work/LaTEX/labs/3.2.8/pictures/graph2.png
+INPUT /media/yanelox/DISK1/linux_work/LaTEX/labs/3.2.8/pictures/graph3.png
+INPUT /media/yanelox/DISK1/linux_work/LaTEX/labs/3.2.8/pictures/graph3.png
+INPUT /media/yanelox/DISK1/linux_work/LaTEX/labs/3.2.8/pictures/graph3.png
+INPUT /media/yanelox/DISK1/linux_work/LaTEX/labs/3.2.8/3.2.8.aux
 INPUT /usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t2a.enc
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb
