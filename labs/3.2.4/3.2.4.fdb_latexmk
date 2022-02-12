@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1639227230 "/media/yanelox/DISK1/linux_work/LaTEX/labs/3.2.4/3.2.4.tex" "/media/yanelox/DISK1/linux_work/LaTEX/labs/3.2.4/3.2.4.pdf" "3.2.4" 1639227241
+["pdflatex"] 1639231464 "/media/yanelox/DISK1/linux_work/LaTEX/labs/3.2.4/3.2.4.tex" "/media/yanelox/DISK1/linux_work/LaTEX/labs/3.2.4/3.2.4.pdf" "3.2.4" 1639231483
   "/etc/texmf/web2c/texmf.cnf" 1631561702 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/yanelox/.texlive2019/texmf-var/fonts/tfm/lh/lh-t2a/labx1200.tfm" 1631562894 3308 eee81981029f67083258db36df06e523 ""
   "/home/yanelox/.texlive2019/texmf-var/fonts/tfm/lh/lh-t2a/labx1728.tfm" 1631567292 3312 d199be9bd555944e2403193d58a0256a ""
@@ -11,8 +11,8 @@
   "/home/yanelox/.texlive2019/texmf-var/fonts/tfm/lh/lh-t2a/larm1440.tfm" 1631562884 3256 3daaa33cf35cf3f354983aa3214ecd7f ""
   "/home/yanelox/.texlive2019/texmf-var/fonts/tfm/lh/lh-t2a/larm1728.tfm" 1631567288 3252 92d08740ce00199d6cf9ff4aaada81d1 ""
   "/home/yanelox/.texlive2019/texmf-var/fonts/tfm/lh/lh-t2a/larm2074.tfm" 1631562880 3264 03c2b9e4787a40d3b9c197c38b93b558 ""
-  "/media/yanelox/DISK1/linux_work/LaTEX/labs/3.2.4/3.2.4.aux" 1639227231 1454 6cc1f227d37bcfaa5a774b9cb14e882c ""
-  "/media/yanelox/DISK1/linux_work/LaTEX/labs/3.2.4/3.2.4.tex" 1639227241 14233 2504e01e5c367022124a70c74b4bc78c ""
+  "/media/yanelox/DISK1/linux_work/LaTEX/labs/3.2.4/3.2.4.aux" 1639231465 1454 6cc1f227d37bcfaa5a774b9cb14e882c ""
+  "/media/yanelox/DISK1/linux_work/LaTEX/labs/3.2.4/3.2.4.tex" 1639231482 14250 4ceab953c8327e0b74c525a62f7d5321 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm" 1136768653 1536 74b7293ec3713bb7fdca8dd1bd1f469c ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -111,8 +111,8 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1581979058 38841 ce3692aa899bb693b90b87eaa5d4d84e ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1631561757 4770781 1ed1abab22da9c3e2cc82e4db562318b ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1631561824 8259055 30ccb4d20f02e19329b44c7ae1167588 ""
-  "3.2.4.aux" 1639227231 1454 6cc1f227d37bcfaa5a774b9cb14e882c "pdflatex"
-  "3.2.4.tex" 1639227241 14233 2504e01e5c367022124a70c74b4bc78c ""
+  "3.2.4.aux" 1639231465 1454 6cc1f227d37bcfaa5a774b9cb14e882c "pdflatex"
+  "3.2.4.tex" 1639231482 14250 4ceab953c8327e0b74c525a62f7d5321 ""
   "pictures/Fase.png" 1639040782 172639 781d1f95a93a0408afd26934c313fea1 ""
   "pictures/RLC.png" 1639040732 89887 c50ddf2ccd2bc444b9105f20b8d4f869 ""
   "pictures/graph1.png" 1639038915 56913 983c7c56f38b828317dea17f50ba32d8 ""
@@ -121,8 +121,8 @@
   "pictures/spiral.jpg" 1639045883 255815 a09cba51ab66aa48f3de3727c30461b0 ""
   "pictures/zatuh_koleb.jpg" 1639044290 298661 b9917707e0c7e72bd062bbbf6f487820 ""
   (generated)
-  "3.2.4.aux"
-  "/media/yanelox/DISK1/linux_work/LaTEX/labs/3.2.4/3.2.4.log"
-  "3.2.4.log"
-  "/media/yanelox/DISK1/linux_work/LaTEX/labs/3.2.4/3.2.4.pdf"
   "3.2.4.pdf"
+  "/media/yanelox/DISK1/linux_work/LaTEX/labs/3.2.4/3.2.4.pdf"
+  "3.2.4.aux"
+  "3.2.4.log"
+  "/media/yanelox/DISK1/linux_work/LaTEX/labs/3.2.4/3.2.4.log"

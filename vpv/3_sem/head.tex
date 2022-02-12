@@ -1,0 +1,62 @@
+\documentclass[a4paper,14pt]{article}
+
+%%% Работа с русским языком
+\usepackage{cmap}					% поиск в PDF
+\usepackage{mathtext} 				% русские буквы в формулах
+\usepackage[T2A]{fontenc}			% кодировка
+\usepackage[utf8]{inputenc}			% кодировка исходного текста
+\usepackage[english,russian]{babel}	% локал	изация и переносы
+\usepackage{extsizes}
+\usepackage{tipa}
+% Дополнительная работа с математикой
+\usepackage{amsmath,amsfonts,amssymb,amsthm,mathtools} % AMS
+\usepackage{icomma} % "Умная" запятая: $0,2$ --- число, $0, 2$ --- перечисление
+%% Шрифты
+\usepackage{euscript}	 % Шрифт Евклид
+\usepackage{mathrsfs} % Красивый матшрифт
+\usepackage{dsfont}
+%% Перенос знаков в формулах (по Львовскому)
+\newcommand*{\hm}[1]{#1\nobreak\discretionary{}
+	{\hbox{$\mathsurround=0pt #1$}}{}}
+
+%% Русские списки
+\usepackage{enumitem}
+\makeatletter
+\AddEnumerateCounter{\asbuk}{\russian@alph}
+\makeatother
+
+%% Таблички
+
+\usepackage{array,tabularx,tabulary,booktabs}
+\usepackage{longtable}
+\usepackage{multirow}
+
+%% Для нормальных абзацев
+
+\usepackage{lipsum}
+\setlength{\parindent}{5ex}
+\setlength{\parskip}{0.5em}
+\usepackage{indentfirst}
+\usepackage{caption}
+\captionsetup{labelsep=period}
+
+%% Поля
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm,bindingoffset=0cm]{geometry}
+
+%% Интервалы
+\linespread{1}
+\usepackage{multirow}
+
+%% TikZ
+\usepackage{tikz}
+\usetikzlibrary{graphs,graphs.standard}
+
+\usepackage{cancel} % перечеркивания
+
+\graphicspath{{picturies/}}
+
+\title{Дрейф заряженной частицы в неоднородном
+магнитном поле при наличии слабого
+электрического поля}
+\author{Радькин Кирилл}
+\date{27.12.21}
