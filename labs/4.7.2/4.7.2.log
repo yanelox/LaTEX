@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.3.10)  26 MAR 2022 00:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.3.10)  11 MAR 2022 23:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/mnt/126A613F6A6120A9/linux_work/LaTEX/labs/4.4.1/4.4.1.tex
-(/mnt/126A613F6A6120A9/linux_work/LaTEX/labs/4.4.1/4.4.1.tex
+**/mnt/126A613F6A6120A9/linux_work/LaTEX/labs/4.7.2/4.7.2.tex
+(/mnt/126A613F6A6120A9/linux_work/LaTEX/labs/4.7.2/4.7.2.tex
 LaTeX2e <2020-02-02> patch level 2
 L3 programming layer <2020-02-14> (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
@@ -512,8 +512,8 @@ Package caption Info: wrapfig package is loaded.
 File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count278
 \l__pdf_internal_box=\box54
-) (/mnt/126A613F6A6120A9/linux_work/LaTEX/labs/4.4.1/4.4.1.aux)
-\openout1 = `4.4.1.aux'.
+) (/mnt/126A613F6A6120A9/linux_work/LaTEX/labs/4.7.2/4.7.2.aux)
+\openout1 = `4.7.2.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
 LaTeX Font Info:    ... okay on input line 39.
@@ -628,66 +628,64 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/up' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 40.
 LaTeX Font Info:    Font shape `OMS/cmr/m/up' in size <7> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 40.
-<picturies/pic1.png, id=6, 648.4225pt x 818.05624pt>
-File: picturies/pic1.png Graphic file (type png)
-<use picturies/pic1.png>
-Package pdftex.def Info: picturies/pic1.png  used on input line 49.
-(pdftex.def)             Requested size: 259.3644pt x 327.21669pt.
 LaTeX Font Info:    Font shape `OML/cmr/m/up' in size <12> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 57.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 51.
 LaTeX Font Info:    Font shape `OML/cmr/m/up' in size <8> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 57.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 51.
 LaTeX Font Info:    Font shape `OML/cmr/m/up' in size <6> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 57.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 51.
 LaTeX Font Info:    Font shape `OMS/cmr/m/up' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 57.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 51.
 LaTeX Font Info:    Font shape `OMS/cmr/m/up' in size <8> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 57.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 51.
 LaTeX Font Info:    Font shape `OMS/cmr/m/up' in size <6> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 57.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 51.
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} </mnt/126A613F6A6120A9/linux_work/LaTEX/labs/4.4.1/picturies/pic1.png>]
-Overfull \hbox (40.47238pt too wide) in paragraph at lines 100--106
-[][] 
- []
-
-<picturies/graph1.png, id=22, 1156.32pt x 1156.32pt>
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+<picturies/graph1.png, id=21, 1156.32pt x 1156.32pt>
 File: picturies/graph1.png Graphic file (type png)
 <use picturies/graph1.png>
-Package pdftex.def Info: picturies/graph1.png  used on input line 118.
-(pdftex.def)             Requested size: 462.5198pt x 462.5198pt.
+Package pdftex.def Info: picturies/graph1.png  used on input line 79.
+(pdftex.def)             Requested size: 520.3392pt x 520.3392pt.
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 130--131
-
+Overfull \hbox (36.64233pt too wide) in paragraph at lines 79--81
+ [][] 
  []
 
-[2]
-Underfull \hbox (badness 10000) in paragraph at lines 132--133
-
- []
-
-[3 </mnt/126A613F6A6120A9/linux_work/LaTEX/labs/4.4.1/picturies/graph1.png>] (/mnt/126A613F6A6120A9/linux_work/LaTEX/labs/4.4.1/4.4.1.aux)
+<picturies/pic1.jpg, id=23, 1204.5pt x 1606.0pt>
+File: picturies/pic1.jpg Graphic file (type jpg)
+<use picturies/pic1.jpg>
+Package pdftex.def Info: picturies/pic1.jpg  used on input line 102.
+(pdftex.def)             Requested size: 361.35278pt x 481.80373pt.
+<picturies/pic2.jpg, id=24, 1204.5pt x 1606.0pt>
+File: picturies/pic2.jpg Graphic file (type jpg)
+<use picturies/pic2.jpg>
+Package pdftex.def Info: picturies/pic2.jpg  used on input line 109.
+(pdftex.def)             Requested size: 361.35278pt x 481.80373pt.
+<picturies/pic3.jpg, id=25, 1204.5pt x 1606.0pt>
+File: picturies/pic3.jpg Graphic file (type jpg)
+<use picturies/pic3.jpg>
+Package pdftex.def Info: picturies/pic3.jpg  used on input line 116.
+(pdftex.def)             Requested size: 361.35278pt x 481.80373pt.
+[2] [3 </mnt/126A613F6A6120A9/linux_work/LaTEX/labs/4.7.2/picturies/graph1.png>] [4 </mnt/126A613F6A6120A9/linux_work/LaTEX/labs/4.7.2/picturies/pic1.jpg>] [5 </mnt/126A613F6A6120A9/linux_work/LaTEX/labs/4.7.2/picturies/pic2.jpg>] [6 </mnt/126A613F6A6120A9/linux_work/LaTEX/labs/4.7.2/picturies/pic3.jpg>] (/mnt/126A613F6A6120A9/linux_work/LaTEX/labs/4.7.2/4.7.2.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 7031 strings out of 481239
- 103098 string characters out of 5920377
- 350169 words of memory out of 5000000
- 22121 multiletter control sequences out of 15000+600000
+ 7039 strings out of 481239
+ 103243 string characters out of 5920377
+ 348104 words of memory out of 5000000
+ 22128 multiletter control sequences out of 15000+600000
  546363 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,7n,42p,619b,372s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t2a.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm2074.pfb>
-Output written on /mnt/126A613F6A6120A9/linux_work/LaTEX/labs/4.4.1/4.4.1.pdf (3 pages, 403159 bytes).
+ 41i,7n,42p,594b,365s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t2a.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm2074.pfb>
+Output written on /mnt/126A613F6A6120A9/linux_work/LaTEX/labs/4.7.2/4.7.2.pdf (6 pages, 745518 bytes).
 PDF statistics:
- 72 PDF objects out of 1000 (max. 8388607)
+ 74 PDF objects out of 1000 (max. 8388607)
  46 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
