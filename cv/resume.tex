@@ -1,0 +1,169 @@
+\documentclass[]{resume-openfont}
+
+\pagestyle{fancy}
+\resetHeaderAndFooter
+
+%--------------------------------------------------------------
+% Convenience command - make it easy to fill template
+
+% Create job position command. Parameters: company, position, location, when
+\newcommand{\resumeHeading}[4]{\runsubsection{\uppercase{#1}}\descript{ | #2}\hfill\location{#3 | #4}\fakeNewLine}
+
+% Create education heading. Parameters: Name, degree, location, when
+\newcommand{\educationHeading}[4]{\runsubsection{#1}\hspace*{\fill}  \location{#3 | #4}\\
+\descript{#2}\fakeNewLine}
+
+% Create project heading. Parameters: Name, link, Tech stack
+\newcommand{\projectHeading}[3]{\Project{#1}{#2}
+\descript{#3}\\}
+
+\newcommand{\projectHeadingWithDate}[4]{\Project{#1}{#2}
+\descript{#3 | #4}\\}
+
+% Parameters: courses
+\newcommand{\courseWork}[1]{\textbf{Coursework:} #1}
+
+% Parameters: courses
+\newcommand{\teacherAssistant}[1]{\textbf{Teacher Assistant (TA):} #1}
+ 
+%--------------------------------------------------------------
+\begin{document}
+
+%--------------------------------------------------------------
+%     Profile
+%--------------------------------------------------------------
+\newcommand{\yourName}{Kirill Radkin}
+% How you want it to show up on the resume
+\newcommand{\yourWebsite}{https://t.me/jkoertp}
+% vs how you want it to show up. If it's the same you can just replace "\yourWebsiteLink" with "yourWebsite"
+\newcommand{\yourEmail}{hokeygo@gmail.com}
+\newcommand{\yourPhone}{+7-(995)-805-24-98}
+\newcommand{\githubUserName}{yanelox}
+
+% An alternate profile section 
+% \alignProfileTable
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%     \ralewayBold{\href{\yourWebsiteLink}{\Large \yourName}} & 
+%     Email : \href{mailto:\yourEmail}{\yourEmail}
+%     \\
+%     \href{https://github.com/\githubUserName}{GitHub://\githubUserName} & 
+%     Mobile : \yourPhone
+%     \\
+%     \href{https://www.linkedin.com/in/\linkedInUserName}{LinkedIn://\linkedInUserName} & Website : \href{\yourWebsiteLink}{\yourWebsite}
+%     \\
+% \end{tabular*}
+
+\begin{center}
+    \Huge \scshape \latoRegular{\yourName} \\ \vspace{1pt}
+    \small \href{mailto:\yourEmail}{\underline{\yourEmail}}  $|$  \yourPhone $|$
+    \href{https://github.com/\githubUserName}{\underline{github/\githubUserName}} 
+    $|$ \href{\yourWebsite}{Telegram: \underline{@jkoertp}}
+\end{center}
+
+%--------------------------------------------------------------
+%     Education
+%--------------------------------------------------------------
+\section{Education}
+% Put school first and degree second if your school is reputable
+\educationHeading{Radio engineering and computer technology}{Moscow Institute of Physics and Technology}{Dolgoprudny}{2020-Now}
+
+\sectionsep
+
+% %--------------------------------------------------------------
+% %     Experience
+% %--------------------------------------------------------------
+% \section{Work Experience}
+% \resumeHeading{Amazon}{Software Development Engineer Intern}{Toronto, ON}{May 2020 – Aug 2020}
+% \begin{bullets}
+%     \item Designed and implemented a dashboard using \textbf{React} and \textbf{TypeScript} to visualize data stored in \textbf{DynamoDB}, decreasing time to understand delivery driver work sessions by over 10 times.
+%     %  \item Here is another bullet that I might choose to uncomment for some jobs
+%     \item Ensured only authorized employees have access to the application by creating an \textbf{AWS Lambda@Edge} function to intercept and sign valid requests.
+%     \item Devised and deployed the infrastructure in TypeScript through \textbf{AWS CDK}, then created efficient algorithms to process data from a custom \textbf{REST API}, so it could scale to handle millions of deliveries.
+%     \item Setup a CI/CD pipeline and exceeded requirements in each stage, which lead to the application being pushed to production.
+% \end{bullets}
+% \sectionsep
+
+% \resumeHeading{University of Windsor}{Research Assistant (RA)}{Windsor, ON}{Feb 2020 - May 2020}
+% \begin{bullets}
+%     \item Developed a Personal Health Record (PHR) system in \textbf{\href{https://spring.io/}{Spring}} based on the theoretical model outlined in \underlinedLink{https://research.library.mun.ca/11920}{Mitu Kumar's thesis}.
+%     \item Applied the \href{https://link.springer.com/chapter/10.1007/978-3-642-10838-9\_23}{mCP-ABE} encryption scheme using the \href{http://gas.dia.unisa.it/projects/jpbc/}{JPBC} library, so patients have fine-grained access control over their health records with the ability to instantly revoke access.
+% \end{bullets}
+% \sectionsep
+
+% \resumeHeading{JoaTu}{Software Engineer Intern}{Montreal, QC}{Dec 2018 – May 2019}
+% \begin{bullets}
+%     \item Rewrote legacy \textbf{Django code} in \textbf{Ruby in Rails} and refactored it to make the system more extensible.
+%     \item Created \textbf{UML} diagrams and documented where features were implemented, to make the codebase more maintainable.
+% \end{bullets}
+% \sectionsep
+
+%--------------------------------------------------------------
+%     Skills
+%--------------------------------------------------------------
+\section{Skills}
+\begin{skillList}
+    \singleItem{Languages:}{C/C++, Python, Bash, Make/Cmake}
+    \sectionsep
+    \\
+    \singleItem{Technology:}{Git, \LaTeX, Vulkan C++ API, Google Test, QBDI, Flex, Bison, Graphviz, Doxygen}
+    \sectionsep
+    \\
+    \singleItem{Courses:}{MIPT-V: Computer Architecture, Algorithms and Data Structures, Intel iLab (advanced programming in C++)}
+    \sectionsep
+    \\
+    \singleItem{Communication:}{Russian (native), English (B1-B2)}
+\end{skillList}
+
+% A more concise alternate 
+% \begin{skillList}
+%     \doubleItem{Languages:}{Java, C++, Python, C\#, PHP, Prolog, Bash, C, Racket}%
+%     {Databases:}{SQL, MongoDB, Neo4j, DynamoDB}
+%     \\
+%     \doubleItem{Web Development:}{JavaScript, TypeScript, React, HTML/CSS}
+%     {Technology:}{Git, AWS, GCP, Azure, Docker, \LaTeX}%
+% \end{skillList}
+
+\sectionsep
+
+%--------------------------------------------------------------
+%     Projects
+%--------------------------------------------------------------
+\section{Projects}
+
+\projectHeading{Augmentation of training sample}{https://github.com/yanelox/augmentation_task}{Python, Big Data, Pandas, NumPy, PyTorch}
+Neural network trained on augmentation sample, which begins from 10 pictures. Network classifies pictures with numbers.\\
+\sectionsep
+\sectionsep
+\projectHeading{Matrix}{https://github.com/yanelox/ilab_2year/tree/main/Matrix}{C++}
+Fast finding determinant of Matrix. Includes Google Test and Bash end-to-end tests.\\
+\sectionsep
+\sectionsep
+\projectHeading{Graph}{https://github.com/yanelox/ilab_2year/tree/main/Graph}{C++, Flex, Bison}
+Program checks is graph bipartite and "colors" vertexes. Flex and Bison is used to process input data and build graph from input data.\\
+\sectionsep
+\sectionsep
+\projectHeading{Triangle}{https://github.com/yanelox/ilab_2year/tree/main/Triangle}{C++, Vulkan C++ API}
+Program finds intersection between triangles in 3D space. Vulkan API is used to draw triangles and colors intersections. \\
+\sectionsep
+\sectionsep
+\projectHeading{ParaCL, team project}{https://github.com/AndreyVV-100/ParaCL}{C++, Bison, Flex, Graphviz}
+C-like interpreted language. My task was creating an interpretator. \\
+\sectionsep
+
+\sectionsep
+
+% Example using bullets and dates 
+% \projectHeadingWithDate{Hogwart\textquotesingle{}s Library Management System}{https://github.com/Aarif123456/hogwartslibrary}{PHP, JavaScript, HTML, CSS, MySQL}{Aug 2019}
+% \begin{bullets}
+    % \item A full-stack library management system, where users can manage books and holds on their accounts. Users can search the library\textquotesingle{}s catalogue, which has every book mentioned in the Harry Potter series. The system distinguishes between 4 users. For examples, librarians who can also check or return books on behalf of users.\\
+% \end{bullets}
+% \sectionsep
+  
+\section{References}
+
+\teacherAssistant Vladimirov Konstantin (konstantin.vladimirov@gmail.com)
+\sectionsep
+
+\section{Personal qualities}
+I enjoy Python and C++ programming. I'm just a beginner, but I want to learn more new features and upgrade my skills. I work well in team. During free time a like play basketball.
+\end{document}

@@ -1,0 +1,155 @@
+\documentclass[a4paper, 12pt]{article}
+
+\usepackage{geometry}
+\geometry{left=2cm, right=2cm, top=2cm, bottom=2cm}
+
+\usepackage{cmap}
+\usepackage{mathtext} 
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english,russian]{babel}	
+
+\usepackage{amsfonts,amssymb,amsthm,mathtools}
+\usepackage{amsmath}
+\usepackage{icomma} 
+
+\usepackage{graphicx} 
+\graphicspath{{picturies/}}
+\usepackage{wrapfig}
+
+\usepackage{array,tabularx,tabulary,booktabs}
+\usepackage{longtable}
+\usepackage{multirow}
+
+\usepackage{caption}
+\captionsetup{labelsep=period}
+
+\renewcommand{\phi}{\varphi}
+\newcommand{\eps}{\varepsilon}
+\newcommand{\parag}[1]{\paragraph*{#1:}}
+
+\newcounter{Points}
+\setcounter{Points}{1}
+\newcommand{\point}{\arabic{Points}. \addtocounter{Points}{1}}
+
+\begin{document}
+
+    Далее найдем диэлектрическую проницаемость для волны. Как и ранее, считаем, что волна распространяется перпендикулярно полю. Рассмотрим 2 случая:\\
+    
+    \begin{enumerate}
+        \item Волна поляризована вдоль $E_0$
+              Это значит, что $E_z ~\neq~ 0,~ E_x ~=~ E_y ~=~ 0,~ p_z ~=~ \beta E_z s_z^2$
+              Вектор поляризации среды имеет вид:
+              \begin{equation*}
+                P_z ~=~ \int p_z dN ~=~ \dfrac{1}{4 \pi} N \beta E_z \int_0^{\pi} \int_0^{2 \pi} \left( 1 + \dfrac{a}{2} \left( s_z^2 - \dfrac{1}{3} \right) \right) s_z^2 \sin \theta d \theta d \phi ~=~
+              \end{equation*}
+
+              \begin{equation*}
+                ~=~ \dfrac{1}{3} N \beta E_z \left( 1 + \dfrac{2}{15} a \right) ~=~ \alpha_{zz} E_z
+              \end{equation*}
+
+              Учитывая, что $E_z ~=~ 4 \pi P_z ~=~ \eps_{zz} E_z$, получаем
+              \[
+                  \eps_{zz} ~=~ 1 + 4 \pi \alpha_{zz} ~=~ 1 + \dfrac{4 \pi}{3} N \beta + \dfrac{8 \pi}{45} N \beta \alpha
+              \]\\
+
+              Эта компонента имеет вид $\eps_{zz} ~=~ \eps_{zz}^0 + \eps_{zz}^2 E_0^2$
+
+              Тогда для показателя преломления имеем $n_z ~=~ \sqrt{\eps_{zz}} ~=~ n_z^0 + n_z^2 E_0^2$, где $n_z^0 ~=~ 1 + \dfrac{2 \pi}{3}N \beta,~ n_z^2 = \dfrac{4 \pi}{45} \dfrac{N \beta^2}{k T}$
+
+        \item Теперь пусть поле $E$ перпендикулярно полю в конденсаторе и направлено по оси $x$. Тогда:
+        
+              \[
+                  \begin{cases}
+                      p_x ~=~ \beta E_x s_x^2 \\
+                      p_y ~=~ \beta E_x s_x s_y \\
+                      p_z ~=~ \beta E_x s_x s_z
+                  \end{cases}
+              \]
+
+              Аналогично
+
+              \[
+                  P_x ~=~ \int p_x dN ~=~ \dfrac{1}{4 \pi} N \beta E_x \int_0^{\pi} \int_0^{2 \pi} \left( 1 + \dfrac{a}{2} \left( s_z^2 - \dfrac{1}{3} \right) \right) s_x^2 \sin \theta d \theta d \phi ~=~
+              \]
+
+              \[
+                  ~=~ \dfrac{1}{3} N \beta E_x \left( 1 - \dfrac{1}{15} a \right)
+              \]
+
+              \[
+                  P_y = \int p_y dN ~=~ \dfrac{1}{4 \pi} N \beta E_x \int_0^{\pi} \int_0^{2 \pi} \left( 1 + \dfrac{a}{2} \left( s_z^2 - \dfrac{1}{3} \right) \right) s_x s_y \sin \theta d \theta d \phi ~=~ 0
+              \]
+
+              \[
+                  P_z ~=~ \int p_z dN ~=~ \dfrac{1}{4 \pi} N \beta E_x \int_0^{\pi} \int_0^{2 \pi} \left( 1 + \dfrac{a}{2} \left( s_z^2 - \dfrac{1}{3} \right) \right) s_x s_z \sin \theta d \theta d \phi ~=~ 0
+              \]\\
+
+            Учитывая, что $E_x + 4 \pi P_x ~=~ \eps_{xx} E_x$ получаем:
+            
+            \[
+                \eps_{xx} ~=~ 1 + 4 \pi \alpha_{xx} ~=~ 1 + \dfrac{4 \pi}{3} N \beta - \dfrac{4 \pi}{45} N \beta \alpha
+            \]\\
+
+            Тогда для показателя преломления имеем $n_x ~=~ \sqrt{\eps_{xx}} ~=~ n_x^0 + n_x^2 E_0^2$, где $n_x^0 ~=~ 1 = \dfrac{2 \pi}{3} N \beta$, $n_x^2 ~=~ \dfrac{-2 \pi}{45} \dfrac{N \beta^2}{k T}$
+
+            Ясно, что если бы мы направили поле $E$ по оси $y$, то аналогичным образом получили бы подобные формулы:\\
+
+            \[
+                P_x ~=~ 0,~ P_y ~=~ \dfrac{1}{3} N \beta E_y \left( 1 - \dfrac{1}{15}a \right),~ P_z ~=~ 0
+            \]\\
+
+            а также
+
+            \[
+                \eps_yy ~=~ 1 + 4 \pi \alpha_{xx} ~=~ 1 + \dfrac{4 \pi}{3} N \beta - \dfrac{4 \pi}{45} N \beta \alpha
+            \]\\
+
+            Полученный результат означает, что выбранные оси являются главными, и тензор проницаемости в них приводится к диагональному виду.
+    \end{enumerate}
+
+    \[
+        \eps ~=~
+        \begin{pmatrix}
+        \eps_{xx} & 0 & 0 \\
+        0 & \eps_{yy} & 0 \\
+        0 & 0 & \eps_{zz}
+        \end{pmatrix}
+    \]\\
+
+    Причем $\eps_{xx} ~=~ \eps_{yy} ~\neq~ \eps_{zz}$~---~как и в одноосном кристалле.\\
+
+    Это означает, что величина $n_x ~=~ \sqrt{\eps_{xx}}$ имеет смысл показателя преломления для обыкновенного луча, а $n_z ~=~ \sqrt{\eps_{zz}}$~---~необыкновенного.\\
+
+    Учитывая, что в отсутствие внешнего поля показатель преломления среды есть:
+
+    \[
+        n ~=~ n^0_x ~=~ n^0_z ~=~ 1 + \dfrac{2 \pi}{3}N \beta
+    \]\\
+
+    можно записать формулы в виде:
+
+    \[
+        n_e - n ~=~ \dfrac{4 \pi}{45} N \beta \alpha,~ n_0 - n ~=~ \dfrac{-2 \pi}{45} N \beta \alpha
+    \]\\
+
+    или
+
+    \[
+        \dfrac{n_e - n}{n_0 - n} = -2
+    \]\\
+
+    Это равенство хорошо выполняется для большинства веществ.\\
+
+    Далее находим разность $n_e - n_0 ~=~ \dfrac{2 \pi}{15} N \beta \alpha ~=~ \dfrac{n - 1}{5} \dfrac{\beta E_0^2}{k T}$\\
+
+    Получили выражение для постоянной Керра:
+
+    \[
+        B~=~\dfrac{n-1}{5 \lambda_0 k T} \beta
+    \]\\
+
+    Теория Ланжевена имеет небольшую проблему. Постоянная Керра получается всегда положительная не только для полностью анизотропных молекул, но и для молекул с произвольным тензором поляризуемости. Эта проблема была устранена в 1916 году Борном, который распространил ее на полярные молекулы со значительными постоянными дипольными моментами, направления которых могут не совпадать с направлениями наибольшей поляризуемости молекул. Так как собственный момент велик по сравнению с индуцируемыми моментами, то ориентация в таком случае будет определяться именно собственными моментами. Направление наибольшей поляризации среды может составлять с ним значительный угол, и если их направления взаимно перпендикулярны, то постоянная Керра считается отрицательной.
+
+    Научно-техническое применение эффекта Керра основано на том, что явление имеет чрезвычайно быстрое время установления и исчезновения. Это обусловлено быстрым процессом поляризации и поворота молекул во внешнем поле – порядка 10-9 секунд. На основе эффекта Керра были придуманы быстродействующие затворы и модуляторы света, применяемые в лазерной технике для управления режима работы лазеров.
+\end{document}
